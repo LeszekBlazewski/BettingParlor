@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClassesBettingParlor">
+  <DataContextMoniker Name="/DataClassesBettingParlorDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ffc8b5ea-1193-40e5-9125-1d09a2e38d1c" absoluteBounds="1.375, 1, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataClassesBettingParlorDataContext/Player" />
+      <nestedChildShapes>
+        <elementListCompartment Id="807eec77-9d8a-4344-b316-4d6d6e000396" absoluteBounds="1.3900000000000001, 1.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0f3fd92c-841c-4238-9ac6-a1e15ab18a95" absoluteBounds="4.25, 1.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClassesBettingParlorDataContext/CurrentBet" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3f26864f-b3dd-469e-bded-1305b432e22b" absoluteBounds="4.265, 1.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Welcome section." Url="html/afa83212-6476-4822-b729-d2ae5c88dd08.htm" />
+  <HelpTOCNode Id="4b127328-495c-4540-bc0d-ba6f8d10089d" Title="Version History" Url="html/f16fc4a7-582b-4d5c-9574-458855af1aef.htm">
+    <HelpTOCNode Title="Version 1.0.0.0" Url="html/b989b19d-f9c0-4818-867b-4cb7e3271878.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="fd7ccbe4-9126-4314-9acd-eb6a379eab46" Title="BettingParlor_Refactor Namespaces" Url="html/2b749efc-c296-8017-3eae-49361ffdb74e.htm">
+    <HelpTOCNode Id="361e4800-9873-459d-9131-e7d1376daf0f" Title="BettingParlor_Refactor" Url="html/056f7b90-f07b-98fd-83e7-b56af24cb721.htm">
+      <HelpTOCNode Id="bcb6ca73-09f3-490e-bfba-2ec8ecb60be4" Title="Bet Class" Url="html/cd050178-1eb6-54a4-2446-887710a9dbf7.htm">
+        <HelpTOCNode Title="Bet Constructor " Url="html/aae4b58c-a52a-85b1-7723-d23c0d9ea4c7.htm" />
+        <HelpTOCNode Id="b6ae8c67-d7b7-4312-893a-064ea44a4f13" Title="Bet Methods" Url="html/4f90e9f2-ce84-214d-3eb6-25e257f4daa0.htm">
+          <HelpTOCNode Title="PayOutTheAmountWon Method " Url="html/79a30eb6-2cc5-3096-f1d9-3fe1d806c6f1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="78bcfb4e-6f04-4dd9-9720-1413920ea56e" Title="Bet Fields" Url="html/cc6e79c1-d9d2-5e66-27f2-3658d73cb946.htm">
+          <HelpTOCNode Title="amount Field" Url="html/f9946bce-6bbf-c676-9137-ed28890a7d40.htm" />
+          <HelpTOCNode Title="dogToWin Field" Url="html/75d5ceaa-589d-39a2-145d-e799cc436be3.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="46192aed-49f3-4d2e-aea9-0fc09894fbc4" Title="BetDummy Class" Url="html/fba3617d-6c17-2bac-0602-d00f52fbd1c3.htm">
+        <HelpTOCNode Title="BetDummy Constructor " Url="html/956e103a-858b-95d9-55d8-96e3adc7a0bf.htm" />
+        <HelpTOCNode Id="59219fbb-6104-479f-90b3-477f811dcaa0" Title="BetDummy Methods" Url="html/f6c8a80b-fa04-0026-a20a-31f6c6d4f8ed.htm">
+          <HelpTOCNode Title="PayOutTheAmountWon Method " Url="html/cd1866d8-c61e-991e-d14e-47f986454be2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="BetDummy Fields" Url="html/c4513bbc-8cd1-5046-906d-4dc142af7e53.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f45b3796-532a-472e-85a5-3aae452086f8" Title="BetFactory Class" Url="html/37f08a89-bf15-1c00-5931-d569bcce8f99.htm">
+        <HelpTOCNode Title="BetFactory Constructor " Url="html/7ccedb99-1b24-81fb-c5f6-7095f73a68ea.htm" />
+        <HelpTOCNode Id="64b05dda-cb88-47df-8b6b-4649e9a11470" Title="BetFactory Methods" Url="html/2a74874a-114e-ba64-5e2c-8f927c101feb.htm">
+          <HelpTOCNode Title="CreateBet Method " Url="html/ead990b8-b2fc-763a-1706-936760fb424d.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="BetFactory.BetSort Enumeration" Url="html/b5d6bd05-7382-edb6-5186-0b748e871cbe.htm" />
+      <HelpTOCNode Id="01acd77d-c822-43c6-8aeb-b1693a6f0796" Title="BetHandicap Class" Url="html/4a15d8fc-c0bf-7841-2faa-59238d4b9091.htm">
+        <HelpTOCNode Title="BetHandicap Constructor " Url="html/db22261c-43e2-7053-15f5-a1f61b971060.htm" />
+        <HelpTOCNode Id="d21da5b6-2c49-4812-add7-05d76c91425a" Title="BetHandicap Methods" Url="html/33aee3f4-b950-5afe-0d59-08f2aeebb96d.htm">
+          <HelpTOCNode Title="PayOutTheAmountWon Method " Url="html/dea85cbb-2bcf-6f3d-dff2-aa0903a6040d.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="BetHandicap Fields" Url="html/0847a8ac-a7bc-14db-81b2-d48ec62b8975.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9efc33f4-2304-4f12-ad6a-962d5e6320be" Title="BetStandard Class" Url="html/a67fb5f9-2013-423b-3aa7-1b21bcd4a3c5.htm">
+        <HelpTOCNode Title="BetStandard Constructor " Url="html/b74c9f21-dd2e-7432-08cb-df2b246c4d6c.htm" />
+        <HelpTOCNode Id="251291a4-c276-47f9-8d45-de46927aab29" Title="BetStandard Properties" Url="html/0c752e75-d70c-2328-69cc-28eaa424bb55.htm">
+          <HelpTOCNode Title="GetAmount Property " Url="html/026ba4bc-3d5c-15e7-36e6-faf7d802e3d7.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b9240439-4fca-4f52-8385-18a0173b01e5" Title="BetStandard Methods" Url="html/cb84bee2-ed8c-af05-2e77-7c3891de06a2.htm">
+          <HelpTOCNode Title="PayOutTheAmountWon Method " Url="html/c8709c10-0973-8027-4bba-242f862837a3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="BetStandard Fields" Url="html/fcb745ae-7d60-fcbe-511e-e5ebb0fad1da.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7e952233-56e8-4bfb-bf9e-6489db030d62" Title="Bettor Class" Url="html/89b06b12-58b4-0bb2-1648-5163818317e0.htm">
+        <HelpTOCNode Title="Bettor Constructor " Url="html/eb9a32b7-2c58-6fb6-0aef-aeac773d7f42.htm" />
+        <HelpTOCNode Title="Bettor Properties" Url="html/d480d7ee-cc3c-ed50-d6ff-360fc0e40135.htm" />
+        <HelpTOCNode Id="36eeed81-429c-4610-b11c-a92987b24c21" Title="Bettor Methods" Url="html/c120f76d-8577-49c6-081b-9b593339283b.htm">
+          <HelpTOCNode Title="AddCashToMyAccount Method " Url="html/384d5fb7-156a-68b3-ceda-f4e9e4ccefe5.htm" />
+          <HelpTOCNode Title="CollectBet Method " Url="html/6b28c125-39e8-82f1-91c3-4c9b92303647.htm" />
+          <HelpTOCNode Title="PlaceBet Method " Url="html/f8c648d9-ec79-7721-bcc6-58966024e67c.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Bettor Fields" Url="html/d33d7827-b9bf-95bf-1a8d-e52c187ec221.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e7593628-edf3-40c5-87eb-bea9abf195fe" Title="Client Class" Url="html/ab14c9ac-a950-5ff4-927f-b5540a979ace.htm">
+        <HelpTOCNode Title="Client Constructor " Url="html/081a813d-64a9-5034-6bf2-bf29b67d097e.htm" />
+        <HelpTOCNode Id="70978bc5-def2-4121-8de9-50272de7723c" Title="Client Properties" Url="html/2c899bcf-b672-f38b-9413-0e781e21a8cc.htm">
+          <HelpTOCNode Title="Connection Property " Url="html/72dd0e39-daa6-c2fb-15cf-6d3131838c37.htm" />
+          <HelpTOCNode Title="FormClient Property " Url="html/3ebc8f24-1752-80b6-37f4-0ff7fe198a3e.htm" />
+          <HelpTOCNode Title="HubProxy Property " Url="html/6254d084-3e1e-33b8-5cab-bd4a47947619.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="26111e03-14ac-4112-9017-449a5c1b5dad" Title="Client Methods" Url="html/80c53c23-dc9c-b2cf-61e7-790dc9ef4d85.htm">
+          <HelpTOCNode Title="AddCashToMyAccountOnServer Method " Url="html/4ce7664e-d7cd-734c-6fd6-abb39bfd8cf0.htm" />
+          <HelpTOCNode Title="ConnectToServer Method " Url="html/8132fb7b-30f1-08e4-91c6-b825d2f50e10.htm" />
+          <HelpTOCNode Title="Disconnect Method " Url="html/ee9aa269-e56d-7b63-29a2-8ff1b6c89b79.htm" />
+          <HelpTOCNode Title="PlaceMyBetOnServer Method " Url="html/56885834-b7f6-de90-942f-d3dfde66213f.htm" />
+          <HelpTOCNode Title="SendMessageToAllPlayers Method " Url="html/71ef32a5-0b4d-0804-a8f0-83c9b3ef65ef.htm" />
+          <HelpTOCNode Title="UpdateMyLabelOnTheForm Method " Url="html/8526fdd1-4008-1412-0855-06367eba2bce.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d332bbef-d381-4e37-ae4c-7bc1f0054c9b" Title="Client Fields" Url="html/39e9b57f-5e59-a459-36fd-35e4025441a3.htm">
+          <HelpTOCNode Title="ServerURI Field" Url="html/4239d8da-5a36-5371-f057-6c59ee6d3395.htm" />
+          <HelpTOCNode Title="userName Field" Url="html/a4e413a6-346f-c197-99e2-986737e621a2.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="97743bec-90d9-411f-8a37-ad75994b8dc9" Title="ClientServerConnectionsHub Class" Url="html/c168f375-1d75-3608-0ef8-ea25ca005df1.htm">
+        <HelpTOCNode Title="ClientServerConnectionsHub Constructor " Url="html/05c07d8e-1c40-67a7-9a09-a84c693afdc2.htm" />
+        <HelpTOCNode Id="bfeba1b1-cc72-4ac8-9d21-e3564a148a6e" Title="ClientServerConnectionsHub Properties" Url="html/0dd0bc80-1f7b-bf62-6e82-fec02b1c6c17.htm">
+          <HelpTOCNode Title="FormServer Property " Url="html/7160d89c-a23a-4364-c93b-dba57b822413.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="88010974-1f17-41aa-ae2b-f46e071d7aa1" Title="ClientServerConnectionsHub Methods" Url="html/be61a37d-2f4d-4f24-75a6-97fd53537ecf.htm">
+          <HelpTOCNode Title="AddCashToAdminAccountInDatabase Method " Url="html/9cad5c17-aa70-fb6c-e825-68cd3b92b813.htm" />
+          <HelpTOCNode Title="AddCashToCurrentCallerAccount Method " Url="html/aae91f97-55db-4ea3-29dd-b7e1c9888163.htm" />
+          <HelpTOCNode Title="CollectClientBetsAfterRaceEnd Method " Url="html/c823412a-8780-4266-c5e9-ceed74cdb9e6.htm" />
+          <HelpTOCNode Title="EndRaceOnClientForm Method " Url="html/91295dab-30f7-67e4-0661-96ee2e0b6bad.htm" />
+          <HelpTOCNode Title="GetAdminAccountBalance Method " Url="html/4fe6c15b-91c7-0393-9856-bcdcc4d31988.htm" />
+          <HelpTOCNode Title="JoinGroup Method " Url="html/dee0d923-b7ba-74d1-3040-6eefa69f90ad.htm" />
+          <HelpTOCNode Title="LeaveGroup Method " Url="html/93a297d0-62dd-842e-9d10-7b7cc8338ec2.htm" />
+          <HelpTOCNode Title="OnConnected Method " Url="html/12e21390-d5e6-55a6-0ba6-20b7792de66f.htm" />
+          <HelpTOCNode Id="b05c75fa-b1d1-4851-a1ec-18a45e2cd01a" Title="OnDisconnected Method " Url="html/3bbf39b5-b395-6d1e-bcd0-ce8e83c3039a.htm">
+            <HelpTOCNode Title="OnDisconnected Method " Url="html/e0f968c4-253b-9f8b-fa4f-46946ed676bf.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="PlaceAdminBet Method " Url="html/6b4c4eae-a261-cc55-44af-21a71794f14d.htm" />
+          <HelpTOCNode Title="PlaceBetOfTheCurrentCaller Method " Url="html/0249a318-8e03-c92f-7c19-d57a61af4ebd.htm" />
+          <HelpTOCNode Title="Send Method " Url="html/3425a58f-41be-e3cc-b368-fb41d5cbe8cc.htm" />
+          <HelpTOCNode Title="SendAdminCurrentAccountBalanceToDatabase Method " Url="html/f0cd0aba-8a97-ad13-4f8a-f787a72de98e.htm" />
+          <HelpTOCNode Title="SendDogsLocationToAllPlayers Method " Url="html/3fa5da10-49b8-0631-ce2e-b432d1b62e69.htm" />
+          <HelpTOCNode Title="SendNotificationRace Method " Url="html/a48201f4-e41c-3d0f-5f28-800aa4706a1f.htm" />
+          <HelpTOCNode Title="UpdateClientsBetTable Method " Url="html/f212881d-e4aa-fb73-4bfc-410cf5f58ee0.htm" />
+          <HelpTOCNode Title="UpdateCurrentCallerLabel Method " Url="html/ced0b71a-a81b-8018-8eae-3798aadc779d.htm" />
+          <HelpTOCNode Title="WriteToAdminConsole Method " Url="html/3212a2c1-39a8-82e3-6d5a-cd162f6f451c.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3a763c09-884f-46ff-9805-b34fde682049" Title="ClientServerConnectionsHub Fields" Url="html/466375a2-96b9-061e-b04e-4e50b1a9c06f.htm">
+          <HelpTOCNode Title="connectedClientsGroup Field" Url="html/2a1838a7-8fd8-df02-62e2-3e9b795e1217.htm" />
+          <HelpTOCNode Title="hubContext Field" Url="html/81d2bd02-e52a-f62c-0471-6515be51ccdb.htm" />
+          <HelpTOCNode Title="loadUserData Field" Url="html/77b51d4e-cbf0-a123-6217-a12f8f96f0c4.htm" />
+          <HelpTOCNode Title="manageUserData Field" Url="html/0b6737b2-d688-8aeb-e51c-4c6752e7df75.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="1e0565c5-1ded-4692-ada4-ae204e3421fe" Title="DataClassesBettingParlorDataContext Class" Url="html/5e525497-53b7-2ae3-2ebe-a3411b5300ba.htm">
+        <HelpTOCNode Id="74871554-f560-4ff2-af6c-0f161f5b4ce7" Title="DataClassesBettingParlorDataContext Constructor " Url="html/cf9512fe-54a8-182f-a476-f5751fcfa72c.htm">
+          <HelpTOCNode Title="DataClassesBettingParlorDataContext Constructor " Url="html/f3598b55-335a-f753-374c-7f60a497e50c.htm" />
+          <HelpTOCNode Title="DataClassesBettingParlorDataContext Constructor (IDbConnection)" Url="html/e29ec80e-6e17-a6d4-0a05-15897f343faa.htm" />
+          <HelpTOCNode Title="DataClassesBettingParlorDataContext Constructor (String)" Url="html/75d740a9-7658-a7ba-80cb-8b486b90166d.htm" />
+          <HelpTOCNode Title="DataClassesBettingParlorDataContext Constructor (IDbConnection, MappingSource)" Url="html/3f40905a-80cf-b5d4-16a2-b1971ec698d8.htm" />
+          <HelpTOCNode Title="DataClassesBettingParlorDataContext Constructor (String, MappingSource)" Url="html/fe0239e9-b3cb-7395-8ee9-6cabc3d94e1e.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="edcccdf4-0399-4156-8634-ae1b9209471b" Title="DataClassesBettingParlorDataContext Properties" Url="html/043d0bfb-c68e-67ad-4fc1-02a0079f94d3.htm">
+          <HelpTOCNode Title="CurrentBets Property " Url="html/58970ce0-08ec-3242-10d8-ea459c114b90.htm" />
+          <HelpTOCNode Title="Players Property " Url="html/3ce55063-ba53-38b6-dc73-b4e9d4747a49.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="DataClassesBettingParlorDataContext Methods" Url="html/e3a77b15-5ef2-9d9d-4baf-dd5d62905d0d.htm" />
+        <HelpTOCNode Id="62f9e8d3-2799-46cb-b6a2-f35dc56baea4" Title="DataClassesBettingParlorDataContext Fields" Url="html/25abd868-3503-e680-eb02-7f4f0569b185.htm">
+          <HelpTOCNode Title="mappingSource Field" Url="html/ed79b14a-518c-cb3c-3b8d-7209b060529f.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="28a656fd-48b9-4f84-b7eb-e80b862e926e" Title="Dog Class" Url="html/12d8c6b1-ed07-3b8a-dd62-91ea3f909521.htm">
+        <HelpTOCNode Id="c34a54d5-49fb-4316-9bfa-fdec42ffbaa5" Title="Dog Properties" Url="html/75dda91b-1c2a-c134-e643-fa8f3f477954.htm">
+          <HelpTOCNode Title="GetLocation Property " Url="html/f3f3b6e1-39e7-7c1a-70e0-20cceebd0476.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0d11a1c9-ac31-49b4-a383-418d07491968" Title="Dog Methods" Url="html/e6e78a51-c13d-eec3-2c19-f8065ebe412f.htm">
+          <HelpTOCNode Title="TakeStartingPosition Method " Url="html/578e1ed7-ad3f-8b83-bcfb-975c5a33d292.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="349979be-282e-4b69-a6d4-3f5742bd7dc2" Title="Dog Fields" Url="html/ea974e4a-f777-0c0c-8a5f-f88b753126e7.htm">
+          <HelpTOCNode Title="location Field" Url="html/6abfb85c-6bc8-8fac-7982-2e2484903212.htm" />
+          <HelpTOCNode Title="myPictureBox Field" Url="html/29531b23-2356-3d34-f88f-dc12d243c79b.htm" />
+          <HelpTOCNode Title="raceTrackLength Field" Url="html/ae7c7007-4556-fe92-6ece-628ab6b76a7d.htm" />
+          <HelpTOCNode Title="randomizer Field" Url="html/0bcba6f6-814d-ffb0-4fed-6d97dde19061.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="f78c20bb-fe4f-409e-a3d6-3275f8d30e12" Title="FormAddCash Class" Url="html/b4f23b71-af84-1973-b36f-bfe545020e88.htm">
+        <HelpTOCNode Title="FormAddCash Constructor " Url="html/4db42c46-187c-c0dd-5ae1-e7d774efd2d4.htm" />
+        <HelpTOCNode Id="1612ddb3-fb67-412b-a4d0-10a00fe21db0" Title="FormAddCash Properties" Url="html/17319396-7ad0-ec1b-ab9e-d4d186bdc54e.htm">
+          <HelpTOCNode Title="NumericUpDown Property " Url="html/79d6f9a3-d00b-01de-cc80-d542029947fb.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ef75e060-ced6-43df-8a15-9843300be902" Title="FormAddCash Methods" Url="html/6fb055f1-4aec-e9e1-3661-e114d4d0d656.htm">
+          <HelpTOCNode Title="ButtonAdd_Click Method " Url="html/b9c15aaf-f01d-82b2-9017-980d8d3036c3.htm" />
+          <HelpTOCNode Title="ButtonCancel_Click Method " Url="html/68d6bd2f-cf80-2f2d-4a28-365474ffbb76.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b565fd9b-8918-41d5-8a42-15106fc84955" Title="FormClient Class" Url="html/357215ad-9197-43f2-67e7-91e77c039377.htm">
+        <HelpTOCNode Title="FormClient Constructor " Url="html/0716351f-d868-a3b3-ef7c-fe448c916b79.htm" />
+        <HelpTOCNode Id="7c69337c-e28b-47d0-9afe-c3fabf2ea3eb" Title="FormClient Properties" Url="html/60771876-015c-46d2-7990-d76aca25e7d1.htm">
+          <HelpTOCNode Title="GetRichTextBoxConsole Property " Url="html/1712f549-1925-d05a-9734-88fd38b24cda.htm" />
+          <HelpTOCNode Title="RefToFormLogin Property " Url="html/0cb4a90f-eeab-077b-d60f-14a2c41e454e.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="004e12ee-6562-4e03-a9f7-00fae7fa731e" Title="FormClient Methods" Url="html/8f83998e-d657-69a6-e4b8-109062925fad.htm">
+          <HelpTOCNode Title="ButtonAddCash_Click Method " Url="html/8925d0d6-8d4d-88a4-e85f-8a9748756d5a.htm" />
+          <HelpTOCNode Title="ButtonHandicap_Click Method " Url="html/f8353a42-d1cf-fc28-81e2-778be08d127e.htm" />
+          <HelpTOCNode Title="ButtonPlaceBet_Click Method " Url="html/fdf46a6c-5410-6996-8347-9a427ffe6ca3.htm" />
+          <HelpTOCNode Title="ButtonSend_Click Method " Url="html/4aa98880-112a-a9b3-7231-6daf522e5be8.htm" />
+          <HelpTOCNode Title="ButtonSignOut_Click Method " Url="html/7a850d19-1eb5-f4fb-5f56-339d951d52b6.htm" />
+          <HelpTOCNode Title="DisableHandicapPanel Method " Url="html/ffae9652-4223-ce37-f1da-697a4a9bec82.htm" />
+          <HelpTOCNode Title="DisableSignOutOptionAfterPlacingStandardBet Method " Url="html/7e6539a2-9795-8875-2162-b6a01d3911a4.htm" />
+          <HelpTOCNode Title="EnableControlsOnRaceStart Method " Url="html/eb8fb948-b43c-fd07-3d3f-05f91fe3cd52.htm" />
+          <HelpTOCNode Title="FormClient_Load Method " Url="html/474e4eb1-6913-762e-4cd7-333c1354677d.htm" />
+          <HelpTOCNode Title="HandleControlsAfterRaceHasFinished Method " Url="html/dfc022b2-a733-bce0-fc2e-2e88d8aabbe1.htm" />
+          <HelpTOCNode Title="InitializeDogs Method " Url="html/c9e39328-0bcd-cce7-ce22-d6c7951ea478.htm" />
+          <HelpTOCNode Title="MoveDogsOnClientForm Method " Url="html/787ab07d-3e4f-0668-4dda-2806fd86cbc1.htm" />
+          <HelpTOCNode Title="ShowResultBet Method " Url="html/b0ea3837-6620-17e7-e59c-19b1cffb3002.htm" />
+          <HelpTOCNode Title="UpdateCurrentAccountBalanceLabel Method " Url="html/286b1d05-aa30-7d91-818c-028ef1cdedc4.htm" />
+          <HelpTOCNode Title="UpdateDataGriedView Method " Url="html/e4e42738-eb75-04e2-fc14-a058bb76c526.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="7019fdf4-5d84-474e-8079-d9307a7f1d30" Title="FormClient Fields" Url="html/5e58cdc8-6a2b-aa7a-b6e5-095f1cb38f66.htm">
+          <HelpTOCNode Title="currentClient Field" Url="html/9f2f8a8f-1809-6c97-b063-3ef418d0340a.htm" />
+          <HelpTOCNode Title="DogArray Field" Url="html/764bd39b-674b-987f-777d-61070bbe9605.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="cedfe357-71b2-4cde-ad34-67f9cbdf1cd9" Title="FormLogin Class" Url="html/9313be7e-e230-9d9e-c49b-d53138e7a621.htm">
+        <HelpTOCNode Title="FormLogin Constructor " Url="html/7be55659-ab09-b429-ec8d-3ebbf21a6a4e.htm" />
+        <HelpTOCNode Id="93df953d-de55-4f88-bb8a-449ed06d7f7c" Title="FormLogin Properties" Url="html/5ab541f1-9148-ebe0-21ff-3fab7de86610.htm">
+          <HelpTOCNode Title="RefToFormMain Property " Url="html/05cbe016-0ead-b96d-c19a-a83ef435845e.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="931970a9-d63e-4a1f-8b8c-b0a3388a370f" Title="FormLogin Methods" Url="html/d1304038-ac79-3769-d2d3-13b680f9a456.htm">
+          <HelpTOCNode Title="ButtonBackToMainMenu_Click Method " Url="html/60c0f626-d134-ab6f-69ba-f90b98649180.htm" />
+          <HelpTOCNode Title="ButtonExitTheApplication_Click Method " Url="html/9bfb2118-5585-028a-def8-55bc94b331e9.htm" />
+          <HelpTOCNode Title="ButtonLogin_Click Method " Url="html/31fe111a-b061-d888-4759-f2a79ac308f2.htm" />
+          <HelpTOCNode Title="ButtonRegister_Click Method " Url="html/38773828-94a1-2645-f0de-6717a2e01cf2.htm" />
+          <HelpTOCNode Title="CheckIfTextBoxesAreEmpty Method " Url="html/515a041a-89c5-874a-75b0-25259ef3cf96.htm" />
+          <HelpTOCNode Title="ClearControls Method " Url="html/9f6e154e-f1fc-e9c1-fdc8-48acfa172f51.htm" />
+          <HelpTOCNode Title="ShowResult Method " Url="html/3a431780-5a26-aac5-e560-58f52c266fef.htm" />
+          <HelpTOCNode Title="StartGameWindowClient Method " Url="html/ae88eac4-8e8a-14d2-2360-c123cb7d8b47.htm" />
+          <HelpTOCNode Title="StartGameWindowServer Method " Url="html/bddb9b43-2023-ea72-0bf7-9b037e03db80.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="383abd3b-b4f1-4104-9ac1-75a1d459466f" Title="FormLogin Fields" Url="html/d9ccad64-bd31-498a-75b9-0dd2babed9c3.htm">
+          <HelpTOCNode Title="login Field" Url="html/4f6a47ed-428d-6095-f071-ab0956726167.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="FormLogin.Result Enumeration" Url="html/85bc0018-105d-2f37-a0ab-1ada186a1a74.htm" />
+      <HelpTOCNode Id="d41321f8-7997-4488-ab06-39d3c4deca6c" Title="FormMenu Class" Url="html/a815a1dd-2228-e2eb-23e3-98878b8f67d0.htm">
+        <HelpTOCNode Title="FormMenu Constructor " Url="html/8edc9efa-0787-e34a-845c-c91e28fa0bfa.htm" />
+        <HelpTOCNode Id="ce98f702-61a6-4583-bda9-4719edec5c1c" Title="FormMenu Methods" Url="html/e7025072-1a42-4d4c-38bf-0472ae402957.htm">
+          <HelpTOCNode Title="buttonExit_Click Method " Url="html/2ba4975e-33e7-4fba-52e4-19887e375a79.htm" />
+          <HelpTOCNode Title="buttonGameStart_Click Method " Url="html/d31bafb0-1876-5ad4-bf54-6147199e5b79.htm" />
+          <HelpTOCNode Title="buttonRules_Click Method " Url="html/8851591e-e53f-ee63-21d9-f4106cbf1feb.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="f6d1930b-302c-43bf-96ec-bca9065ceeaf" Title="FormPlaceBet Class" Url="html/9834da95-5564-58d3-277c-8fae7f59bb44.htm">
+        <HelpTOCNode Title="FormPlaceBet Constructor " Url="html/80173d3c-6891-f9b4-9f51-efa7a696bd2a.htm" />
+        <HelpTOCNode Id="fefc7f04-df46-4eaa-9976-5134d3c736a4" Title="FormPlaceBet Properties" Url="html/dc3c1c1c-8171-c18c-4fc9-851be692802f.htm">
+          <HelpTOCNode Title="NumericUpDownBetValue Property " Url="html/0a46b56b-8c1a-bda5-e1fd-36c506711e63.htm" />
+          <HelpTOCNode Title="NumericUpDownDogNumber Property " Url="html/fc5c03d3-c0bf-5322-4d63-72b485050704.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="544805d1-cf94-40ab-84ac-79901ab1e087" Title="FormPlaceBet Methods" Url="html/16190ba2-9c03-ae52-c42b-99b81ba61431.htm">
+          <HelpTOCNode Title="buttonPlaceBet_Click Method " Url="html/e2688a44-3d6b-654d-8e48-726c8948448e.htm" />
+          <HelpTOCNode Title="ShowResultMessageBet Method " Url="html/90243deb-097f-5b95-f851-cb875e1e0186.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="9f73f627-d7db-4b76-b75f-e5f9228ac7ca" Title="FormRules Class" Url="html/e7e13940-52aa-77e7-7763-2b5b23481594.htm">
+        <HelpTOCNode Title="FormRules Constructor " Url="html/ef9180e4-8df8-b75a-30c2-14ab21d16e20.htm" />
+        <HelpTOCNode Id="b22f8252-caac-4371-a1b4-26d2ca9dfbc6" Title="FormRules Properties" Url="html/05002beb-a9de-55c6-b1a7-2c5f919edc9b.htm">
+          <HelpTOCNode Title="RefToFormMain Property " Url="html/5ba31a7e-589c-74eb-be00-5954568c3943.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ff6a9093-306c-4ed9-aa11-225ebb8b847b" Title="FormRules Methods" Url="html/b77c4bd6-dd43-728b-fd3b-a9e0631f4052.htm">
+          <HelpTOCNode Title="FormRules_FormClosed Method " Url="html/5d5333c8-4e76-64d8-dd1f-6ea8785149e1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6f0c89ed-700f-4003-9547-0212eab69874" Title="FormServer Class" Url="html/cd417083-16e7-87a8-256f-786a49409893.htm">
+        <HelpTOCNode Title="FormServer Constructor " Url="html/25c6c63e-a22c-0410-1495-a133e665d57d.htm" />
+        <HelpTOCNode Id="20ec7167-d9be-4eef-80d0-abc606384238" Title="FormServer Properties" Url="html/80dc8d11-19e9-eea2-e88c-eb7e71c85d06.htm">
+          <HelpTOCNode Title="GetRichTextBoxConsole Property " Url="html/d59ec6f5-658c-f7b6-51f6-934e689c8c1d.htm" />
+          <HelpTOCNode Title="RefToFormLogin Property " Url="html/32ec0be0-c599-1366-cce6-0fcca2e7f31e.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e8f480e7-c1db-4191-bff7-6ed7357a7467" Title="FormServer Methods" Url="html/aed7c0d3-8420-0d36-6fc1-b0d39f4f3452.htm">
+          <HelpTOCNode Title="ButtonAddCash_Click Method " Url="html/ff6568d9-c2c5-9f77-e887-696abb3c9bb2.htm" />
+          <HelpTOCNode Title="ButtonHandicap_Click Method " Url="html/61ef8275-a920-b8c2-d641-f95edcb12367.htm" />
+          <HelpTOCNode Title="ButtonPlaceBet_Click Method " Url="html/5f94d1c0-f0f3-39a9-86bb-9875531dd801.htm" />
+          <HelpTOCNode Title="ButtonSignOut_Click Method " Url="html/765aee82-7e3f-007e-d642-7d4257a5c454.htm" />
+          <HelpTOCNode Title="ButtonStartRace_Click Method " Url="html/aa682d27-327c-60af-5d62-6703b8c5b3ed.htm" />
+          <HelpTOCNode Title="CheckIfRaceIsOn Method " Url="html/518bc7e9-95df-dbf4-80f0-0d036a4425c5.htm" />
+          <HelpTOCNode Title="DisableControlsOnRaceEnd Method " Url="html/98ea0228-33af-6bab-da7b-8939decaaedc.htm" />
+          <HelpTOCNode Title="EnableControlsOnRaceStart Method " Url="html/e02ba285-4b45-3899-9bf0-f9f6f0ce5554.htm" />
+          <HelpTOCNode Title="FormServer_Load Method " Url="html/1ac91536-db82-2a96-bceb-11051e00f2c9.htm" />
+          <HelpTOCNode Title="InitializeDogs Method " Url="html/4d492fc1-b915-a30a-7fe7-ce82f9f7ff31.htm" />
+          <HelpTOCNode Title="TimerRaceTime_Tick Method " Url="html/7898c16c-b558-87d3-f32a-886e8ad2656d.htm" />
+          <HelpTOCNode Title="UpdateCurrentAccountBalanceLabel Method " Url="html/e4d48d7d-7449-5f90-3cb1-c20416303949.htm" />
+          <HelpTOCNode Title="UpdateDataGriedView Method " Url="html/a7d859c0-5279-b83e-392a-822a179ef00f.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3693d4a9-ab54-4f30-b58e-fc3c17c119bb" Title="FormServer Fields" Url="html/bfc0d8ac-1110-abf9-aec2-089bb2986fea.htm">
+          <HelpTOCNode Title="administrator Field" Url="html/126b6d8e-77ae-1de8-90cd-2455312daec8.htm" />
+          <HelpTOCNode Title="DogArray Field" Url="html/fc9158fa-9715-e198-fa8e-12ed7ed9e612.htm" />
+          <HelpTOCNode Title="server Field" Url="html/baad939c-6484-05bd-78f3-52d51dbfe612.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="5cb21ec6-dafe-428f-a8cf-7f9f730ba65a" Title="GreyHound Class" Url="html/de899452-47ee-3102-253b-8454b3f76937.htm">
+        <HelpTOCNode Title="GreyHound Constructor " Url="html/980833fc-1857-aeda-8722-db8f6da1ceab.htm" />
+        <HelpTOCNode Title="GreyHound Properties" Url="html/67f69c56-e139-8da6-89f4-60360a424e08.htm" />
+        <HelpTOCNode Id="c7afe5ca-13b9-477f-9af3-45764a76ec49" Title="GreyHound Methods" Url="html/e2b1acd3-547d-0d82-3ca8-fd60a8af2cea.htm">
+          <HelpTOCNode Title="Run Method " Url="html/400871aa-762e-f618-90d9-e762ecc97163.htm" />
+          <HelpTOCNode Title="RunOnClientForm Method " Url="html/62de901f-ccc6-c64f-66ce-0609b07bc2fd.htm" />
+          <HelpTOCNode Title="TakeStartingPosition Method " Url="html/af231d6a-96d5-144a-338a-74def7fe991e.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GreyHound Fields" Url="html/14a3039f-c99a-f768-d0e6-188595cd5cc3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0bbe4e1a-3125-4b2c-956a-dd4eacfd4c5d" Title="IBetSort Interface" Url="html/0768eb4d-fa28-b658-871d-918231c454ff.htm">
+        <HelpTOCNode Id="6fb8257f-1253-4586-927c-8d971d671234" Title="IBetSort Methods" Url="html/c9a1c009-64c7-6cbc-a525-300fbad55d27.htm">
+          <HelpTOCNode Title="PayOutTheAmountWon Method " Url="html/d486d5c8-cf60-2839-a90a-bcbeb8159c06.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="1a1bd894-beb3-46d0-b3ec-b7d85f156c3e" Title="LoadUserData Class" Url="html/6c634385-03ac-3bbb-f4af-1b6f84791e15.htm">
+        <HelpTOCNode Title="LoadUserData Constructor " Url="html/ffe53937-595e-fcfa-7a65-ea1cb4d21ee7.htm" />
+        <HelpTOCNode Id="d66d635c-6db9-48aa-8d29-3e3d0852ba52" Title="LoadUserData Methods" Url="html/b5480e48-73f7-4856-ef59-f18d969edd93.htm">
+          <HelpTOCNode Title="AddClientToList Method " Url="html/0a29b37a-68a1-1600-5ad6-1b2dccd831e3.htm" />
+          <HelpTOCNode Title="RemoveClientFromList Method " Url="html/edd540d6-bf29-73cc-0f25-6e4e624c8df7.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="4aa56e16-0fc5-467f-96ac-df2174ae27bd" Title="Login Class" Url="html/422e0d1c-8178-0940-a923-a67498de2b4e.htm">
+        <HelpTOCNode Title="Login Constructor " Url="html/ca9300f2-a8ea-7bc9-d58d-1701cb532e7c.htm" />
+        <HelpTOCNode Id="24d86dc5-e649-43be-bdac-aeb9d7bfa59b" Title="Login Methods" Url="html/e0c65f8c-a1ad-78d5-8191-87febbbbd05b.htm">
+          <HelpTOCNode Title="LogInToExistingAccount Method " Url="html/2c77b3dc-3c96-456b-6ab6-6057209ff77a.htm" />
+          <HelpTOCNode Title="RegisterNewPlayer Method " Url="html/540e08f5-f18d-1074-28e1-8bd35a382631.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="cde67fb5-53ba-4f43-8ce6-397b5015fb7b" Title="Login Fields" Url="html/0010bf8e-af31-84e0-59ae-3965de234fb5.htm">
+          <HelpTOCNode Title="result Field" Url="html/5fb41435-3643-aee9-19d7-abe598afa214.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ce026530-37d8-47c6-843f-4c49b791f184" Title="ManageUserData Class" Url="html/36cb2ff2-1714-391d-442d-843371e4b80b.htm">
+        <HelpTOCNode Title="ManageUserData Constructor " Url="html/acf4252c-ce7f-2d5d-eb6a-009f173a76e9.htm" />
+        <HelpTOCNode Id="6f1d3a40-c209-4eed-baa8-e2f349598de2" Title="ManageUserData Methods" Url="html/f0f92568-993a-2545-cae5-354af137918f.htm">
+          <HelpTOCNode Title="AddCashToAdminAccount Method " Url="html/77b9ce09-cf1c-2a4c-5e30-869850e0496d.htm" />
+          <HelpTOCNode Title="AddCashToClientAccount Method " Url="html/2d2a3418-5912-fc65-9749-6c530d18488b.htm" />
+          <HelpTOCNode Title="CollectClientBets Method " Url="html/f5734e4c-2b86-caa3-1da2-1b9d8eb230ae.htm" />
+          <HelpTOCNode Title="PlaceAdminBet Method " Url="html/22a600e1-20c0-bb41-2b42-5138cf9101ac.htm" />
+          <HelpTOCNode Title="PlaceClientBet Method " Url="html/e33c68c4-552b-4473-d910-73d8fbbff812.htm" />
+          <HelpTOCNode Title="SendCashToDatabase Method " Url="html/78eee99a-e8c1-f206-ebd1-c468469397a2.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="1e01352e-ade8-4815-86f7-7c5c4ac77684" Title="Parlor Class" Url="html/09f8f608-d764-d4bb-5c72-c4f8e3d6eba2.htm">
+        <HelpTOCNode Title="Parlor Constructor " Url="html/f7652294-9579-953a-d9f5-53c353050d0a.htm" />
+        <HelpTOCNode Title="Parlor Properties" Url="html/d19f1678-b67b-02ca-a169-5b4977134fbe.htm" />
+        <HelpTOCNode Id="6be0192c-9291-44bf-abcf-681fdcfc6034" Title="Parlor Methods" Url="html/71982bf2-2ff2-2b7c-3aee-619a56d4f326.htm">
+          <HelpTOCNode Title="AddCashToMyAccount Method " Url="html/19e1cc83-d722-d4b7-114a-6161b939530c.htm" />
+          <HelpTOCNode Title="CollectBet Method " Url="html/3f2cbd08-5b14-0af3-dfe3-66d72c440631.htm" />
+          <HelpTOCNode Title="PlaceBet Method " Url="html/3db8eb6c-47f9-b3dd-0bf8-7d88f50ea648.htm" />
+          <HelpTOCNode Title="SendDogsLocationToUsers Method " Url="html/a198e1b1-858f-9e90-0c20-f168de961d91.htm" />
+          <HelpTOCNode Title="SendNotificationAboutTheRace Method " Url="html/7bb0c7d5-808e-8210-8452-dc7d53aa973d.htm" />
+          <HelpTOCNode Title="UpdateAdminCashLabel Method " Url="html/22dd9bb1-17cd-f4b8-515a-4da09744ab1d.htm" />
+          <HelpTOCNode Title="UpdateUserFormOnRaceEnd Method " Url="html/13e95506-f096-ed96-1050-4391542b3ab1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Parlor Fields" Url="html/4664c790-7ba1-b13c-3a0a-7d94544e668c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3f4bd711-7bd4-49e3-909c-46fa18cc47ea" Title="Program Class" Url="html/97cc6f52-bd54-3371-b74e-b2ee525d9176.htm">
+        <HelpTOCNode Id="93548a09-fd34-4983-8161-c376ed933503" Title="Program Methods" Url="html/6325362c-b254-fc66-0fba-d83ee930c612.htm">
+          <HelpTOCNode Title="Main Method " Url="html/3a55b213-652b-5ae5-cca3-0c4cdcbd6b74.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="f6bb82d3-b3bb-46d8-8d7b-0f67a9ea53c5" Title="Server Class" Url="html/53272eba-900d-dcc9-dcb0-8785dcb56226.htm">
+        <HelpTOCNode Title="Server Constructor " Url="html/4a60527f-2a63-8810-8e11-3e785187b13e.htm" />
+        <HelpTOCNode Id="472396d5-2b46-41df-a85e-1a8943308db4" Title="Server Properties" Url="html/7325b408-4826-c41f-6c5a-d0cba12a3fa7.htm">
+          <HelpTOCNode Title="GetAdminName Property " Url="html/dde728ee-9d27-c269-af89-d24edfbd7ea8.htm" />
+          <HelpTOCNode Title="GetServerUrl Property " Url="html/39c8602b-39eb-3f18-c495-76dbe44be025.htm" />
+          <HelpTOCNode Title="SignalR Property " Url="html/595baef7-e725-045e-5867-9633844caabc.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="90077fcf-d5a1-4399-918e-09daaa5e1113" Title="Server Methods" Url="html/3dafbf68-b371-85f9-c72d-43eb9b62e30b.htm">
+          <HelpTOCNode Title="CloseServer Method " Url="html/52c49497-9257-8d06-b69f-affdb6101a2b.htm" />
+          <HelpTOCNode Title="StartServer Method " Url="html/004f3c37-0f63-d0d7-8f39-d00dfb56f61e.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="09948886-ba93-4aad-bc8a-21fc2060dec7" Title="Server Fields" Url="html/751d25b0-196b-0afe-7f8a-030119443d3e.htm">
+          <HelpTOCNode Title="adminName Field" Url="html/a13e9360-8da6-6976-3e6a-fadf97d97ffd.htm" />
+          <HelpTOCNode Title="ServerURI Field" Url="html/92235f53-db1e-2d9a-bc18-d00579ab57f5.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="99b55867-ee70-48d1-a0b2-25a2cff2c0b3" Title="Startup Class" Url="html/7aab1d6c-0a3e-00ca-fbd2-881a7122fd7b.htm">
+        <HelpTOCNode Title="Startup Constructor " Url="html/099a0091-0041-d8f5-380c-66a0aded4f11.htm" />
+        <HelpTOCNode Id="ec6419fc-1ab1-464e-84cc-b04b168e9b46" Title="Startup Methods" Url="html/dab58eeb-1ce7-f503-16f0-b3ce2618364c.htm">
+          <HelpTOCNode Title="Configuration Method " Url="html/708f04d4-5cdf-2ec6-8d09-0430745f1b60.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="440b0d0a-5f63-483d-9db9-f67864a3757d" Title="User Class" Url="html/0c4b18b1-2bc9-1386-23f1-61e093bc9e2d.htm">
+        <HelpTOCNode Title="User Constructor " Url="html/6669face-a441-8043-e4b1-cbb212659da4.htm" />
+        <HelpTOCNode Id="41fd0a62-24e1-48cd-9555-769014778d44" Title="User Properties" Url="html/e5d35e5d-88bc-2476-8176-14bbb19cd8eb.htm">
+          <HelpTOCNode Title="Cash Property " Url="html/620676bd-777c-c32f-3289-0b3e5357fda1.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/601aec6a-2f9f-9703-125f-8b601bb75c5f.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="7273338b-d95d-4347-81b9-cfb025a6a8f4" Title="User Methods" Url="html/4c124277-73f8-39fc-210d-cbfe8b8bfe54.htm">
+          <HelpTOCNode Title="AddCashToMyAccount Method " Url="html/38646588-d3d5-ada8-8a64-b4afc8db276f.htm" />
+          <HelpTOCNode Title="ClearBet Method " Url="html/55039ff0-9594-07bf-2216-8fe35fa51bfe.htm" />
+          <HelpTOCNode Title="CollectBet Method " Url="html/984fe381-0bb9-de1e-4369-c03db0c94ef4.htm" />
+          <HelpTOCNode Title="PlaceBet Method " Url="html/535b98a3-b14d-c05a-fb5a-1de732a542d1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="27c1eb26-ad70-46d7-b182-5b78574334a1" Title="User Fields" Url="html/3ca175ec-d796-cbd5-e103-c515d0c6d580.htm">
+          <HelpTOCNode Title="betFactory Field" Url="html/e7d770a5-642d-c5a0-093c-1a023b415075.htm" />
+          <HelpTOCNode Title="betSort Field" Url="html/6ad1cf57-2777-7506-623b-be12e7a8129d.htm" />
+          <HelpTOCNode Title="cash Field" Url="html/86d238e7-bfca-1c1f-f907-81d8d3210045.htm" />
+          <HelpTOCNode Title="name Field" Url="html/6c6e5625-d3ca-d52f-539d-a75be80d29bb.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="140f557b-5bf3-4af8-a0ad-35a73f5baef8" Title="UserData Class" Url="html/0dcf1a73-90b4-c92f-b4b9-f45c2caf7cab.htm">
+        <HelpTOCNode Title="UserData Constructor " Url="html/bdae64a6-ea04-6a94-a455-3582b8658f41.htm" />
+        <HelpTOCNode Id="184dc15f-6480-45aa-8cbe-566c26126dea" Title="UserData Methods" Url="html/6938f38d-5615-7ef6-9d61-dcd4fb349f48.htm">
+          <HelpTOCNode Title="GetCurrentClientAccountBalance Method " Url="html/7643cce3-14ed-4e43-170d-a58b78b01b21.htm" />
+          <HelpTOCNode Title="GetCurrentClientRow Method " Url="html/eefe9b60-985c-fc08-853f-cde0459b0946.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="99e97ac5-d7bc-40de-9018-4cd2eabad2dc" Title="UserData Fields" Url="html/66e783a2-ac6e-24c9-cc20-4be98b85e651.htm">
+          <HelpTOCNode Title="connectedClients Field" Url="html/7700810c-04a5-7f65-9f2e-86fcc88de407.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6e4857b8-a2f3-4fad-ad06-24e475a81c70" Title="BettingParlor_Refactor.BettingParlorDataSetTableAdapters" Url="html/20996c42-3ebd-a996-85f7-c98139b97785.htm">
+      <HelpTOCNode Id="3451fd4c-b717-4c1c-81b3-ccbafbc54b0e" Title="TableAdapterManager Class" Url="html/0aca3307-7023-addf-681b-8eaec45066de.htm">
+        <HelpTOCNode Title="TableAdapterManager Constructor " Url="html/6f5d0058-9162-a67a-377f-26c84a894971.htm" />
+        <HelpTOCNode Id="e34bb719-cf7d-48cc-b61e-9b810d9dbc14" Title="TableAdapterManager Methods" Url="html/2ecf1549-312b-1b52-df27-0bc613bccd40.htm">
+          <HelpTOCNode Title="GetRealUpdatedRows Method " Url="html/df7d560f-9a9f-e5b2-3e6f-39a0fc493537.htm" />
+          <HelpTOCNode Title="UpdateAll Method " Url="html/5b23e322-860b-b40c-e364-f6d9dba96bb6.htm" />
+          <HelpTOCNode Title="UpdateDeletedRows Method " Url="html/b562cd09-f74d-1d14-3339-2bd649a14c8b.htm" />
+          <HelpTOCNode Title="UpdateInsertedRows Method " Url="html/70ac3d64-c810-4bc4-f06c-96eda133e7dd.htm" />
+          <HelpTOCNode Title="UpdateUpdatedRows Method " Url="html/0a0aa2d5-b91c-0482-9362-00251377807b.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="TableAdapterManager.UpdateOrderOption Enumeration" Url="html/0c4c20fc-6652-e101-862b-b94e184e26e0.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f92b5e9b-bccf-4ae4-8520-6b1217fbad3e" Title="BettingParlor_Refactor.UnitTests" Url="html/bd984064-07e8-b988-150b-e312f57b97d0.htm">
+      <HelpTOCNode Id="d7d86048-3220-42ec-958f-facbf96f1f64" Title="BetTests Class" Url="html/1870a966-1613-3c17-5423-1a7350221c73.htm">
+        <HelpTOCNode Title="BetTests Constructor " Url="html/d2d8f532-bfee-99ed-daa3-3b360929481a.htm" />
+        <HelpTOCNode Id="5e5455ad-afa7-4a18-a6ce-ea7f307f9046" Title="BetTests Methods" Url="html/2a37b71c-ca42-1eff-e13e-b37ae5f8fded.htm">
+          <HelpTOCNode Title="PayOutTheAmountWon_HandicapBetIsPlacedOnDogWichLost_ZeroIsReturned Method " Url="html/c9e91a77-9eb2-7eff-fb5c-4fda6e9b20e1.htm" />
+          <HelpTOCNode Title="PayOutTheAmountWon_HandicapIsPlacedOnDogWichWon_PlacedValueMultupliedByOnePointFive Method " Url="html/a6b98058-4c23-c0fb-e512-366bbf99a4a9.htm" />
+          <HelpTOCNode Title="PayOutTheAmountWon_StandardBetIsPlacedOnDogWichLost_ZeroIsReturned Method " Url="html/ac6d620b-e086-e110-8b0d-2a408e848267.htm" />
+          <HelpTOCNode Title="PayOutTheAmountWon_StandardBetIsPlacedOnDogWichWon_DoubleOfPlacedValueIsReturned Method " Url="html/434d54a2-727f-1437-daec-259b7bbaad60.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="55244b20-85dc-490f-bd71-45729ba83ec4" Title="ClientFactory Class" Url="html/1bf4a309-e969-b364-c10b-c8a742956787.htm">
+        <HelpTOCNode Title="ClientFactory Constructor " Url="html/723f8c18-9ec5-5999-1f89-18beab8e99c8.htm" />
+        <HelpTOCNode Id="4842f6e1-b64b-4ebb-81f5-fe64c541cb3c" Title="ClientFactory Methods" Url="html/8ffa2c18-cdbf-442c-a3c8-07a35cbd514b.htm">
+          <HelpTOCNode Title="CreateUserinDatabase Method " Url="html/aae1889e-d4cc-56ae-3280-30e6cd00923f.htm" />
+          <HelpTOCNode Title="DeleteUserFromDatabase Method " Url="html/13bec527-3027-fd72-622a-1bc5c6481654.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="44888cc5-d44d-4ba2-a16a-01ceb40c31d6" Title="ClientFactory Fields" Url="html/0f9151f3-ec7f-b138-54ea-cf5458ba23db.htm">
+          <HelpTOCNode Title="connectionId Field" Url="html/4a0f9355-0c99-50d2-73c5-06c8b9952dd7.htm" />
+          <HelpTOCNode Title="formLogin Field" Url="html/49f1f654-4522-2944-43a4-450f68acfedf.htm" />
+          <HelpTOCNode Title="password Field" Url="html/369d9089-1738-80e4-5e7f-5da801b00d2f.htm" />
+          <HelpTOCNode Title="username Field" Url="html/7a609d25-3571-ebce-bf5e-aa3478dfba7f.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="c865cd87-e19f-43c1-919d-c317af31df62" Title="ClientTests Class" Url="html/a22bdcfe-de39-c03a-b65f-2ca2fb456f89.htm">
+        <HelpTOCNode Title="ClientTests Constructor " Url="html/a81970cc-e659-314c-3c6b-1654277f1a48.htm" />
+        <HelpTOCNode Id="78697f2f-f80a-4a9b-a1b7-3f2f04853007" Title="ClientTests Methods" Url="html/0a9f9de1-8827-8795-fa1b-18fefaeb52be.htm">
+          <HelpTOCNode Title="ConnectToServer_ServerIsDown_ClientCanNotConnectToServer Method " Url="html/ff724d09-31ad-a543-d200-89c34b0740ba.htm" />
+          <HelpTOCNode Title="ConnectToServer_ServerIsUp_ClientConnectsToServerAsync Method " Url="html/3802bb2e-c5a1-6f52-e579-c25bc525ba97.htm" />
+          <HelpTOCNode Title="Disconnect_ServerIsDown_ClientImmediatelyClosesConnectionWhichIsInConnectingState Method " Url="html/90283e77-e7ab-f5cc-402e-3e6662ccfcaa.htm" />
+          <HelpTOCNode Title="Disconnect_ServerIsUp_ClientProperlyClosesConnection Method " Url="html/2c3875ea-c495-0170-0c71-0634787d8844.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="f269cb6d-2082-4c95-84fa-ec67558b018f" Title="LoadUserDataTests Class" Url="html/fff9ca91-3cb8-2e85-0210-fd1fa5bdeca2.htm">
+        <HelpTOCNode Title="LoadUserDataTests Constructor " Url="html/a9ec13c9-5930-647e-8667-3f72d6674646.htm" />
+        <HelpTOCNode Id="c25ac5da-c69e-4a7c-b94c-906a6024351e" Title="LoadUserDataTests Methods" Url="html/ef3a2c97-1c09-9ab7-0b44-7a53c9cff09d.htm">
+          <HelpTOCNode Title="AddClientToList_ClientDictionaryIsEmptyOrClientIsNotInDictionary_CLientIsAddedToDictionaryReturnTrue Method " Url="html/2281cdb3-97ac-4849-449e-842286fa3841.htm" />
+          <HelpTOCNode Title="AddCLientToList_ClientIsAlreadyInDictionary_ClientIsNotAddedReturnFalse Method " Url="html/6d7e1517-1044-7ef0-0148-3c30bf5a9375.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="LoadUserDataTests Fields" Url="html/5837258b-0825-4327-3502-0a7854e89244.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0e00c956-cc4f-413b-b590-c3ca7693e7bf" Title="LoginTests Class" Url="html/43d6c2d8-a00f-a354-09a4-bb968caae50f.htm">
+        <HelpTOCNode Title="LoginTests Constructor " Url="html/96ab98f1-7752-0e77-b5bf-c2706be5c1db.htm" />
+        <HelpTOCNode Id="d938dbcd-234a-48f0-a83d-4e5126927f70" Title="LoginTests Methods" Url="html/d179ab30-5270-2fdb-9106-64acbb0983fc.htm">
+          <HelpTOCNode Title="LogInToExistingAccount_ThereIsAUserWithSpecifiedNameInDatabase_LoginIsSuccessfull Method " Url="html/1d3c8ef0-db00-19cf-e99f-183841a67ac6.htm" />
+          <HelpTOCNode Title="LogInToExistingAccount_UserWithSpecifiedNameIsNotRegistered_LoginFails Method " Url="html/bf391182-cedb-55c3-671a-2db53a031039.htm" />
+          <HelpTOCNode Title="RegisterNewPlayer_ThereIsAUserWithSpecifiedNameInDatabase_RegistrationIsRefused Method " Url="html/5bd6ac37-2461-8540-6dcb-b054d63261a7.htm" />
+          <HelpTOCNode Title="RegisterNewPlayer_ThereIsNoUserWithSpecifiedNameInDatabase_NewAccountIsCreatedInDatabase Method " Url="html/1891f0fd-a603-2360-8ba1-4503152dfdba.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="LoginTests Fields" Url="html/09f3336e-1728-68f7-9ff5-1da8ee3a5147.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e06bc33c-7368-4b17-901a-62790e3fb00f" Title="ManageUserDataTests Class" Url="html/25d1aae6-a493-63ce-a466-68e797ab5acd.htm">
+        <HelpTOCNode Title="ManageUserDataTests Constructor " Url="html/98b24975-ecc2-7009-41cb-6023a0bade1b.htm" />
+        <HelpTOCNode Id="597619d5-87ef-4093-8251-5e8b0edd9c1e" Title="ManageUserDataTests Methods" Url="html/47f07d6e-f010-bb03-3ba2-5499a4e41ad1.htm">
+          <HelpTOCNode Title="AddCashToClientAccount_ClientTransfersCertainAmountOfCash_HisAccountBalanceIsUpdated Method " Url="html/bf0ae038-abd2-c7c1-cb57-2d9c71e34837.htm" />
+          <HelpTOCNode Title="PlaceClientBet_UserCanNotPlaceCertainBet_BetIsNotPlacedReturnFalse Method " Url="html/cd8dad50-e9cb-b839-39df-76c299362656.htm" />
+          <HelpTOCNode Title="PlaceClientBet_UserIsAbleToPlaceCertainBet_BetIsPlacedReturnTrue Method " Url="html/245bf3f6-4c2d-6043-19d0-97e37a21c5a7.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ManageUserDataTests Fields" Url="html/c0723615-ffe4-f56d-2735-8e4132a31c7e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cce52503-d485-4026-925e-17a39b073d28" Title="RandomStringGenerator Class" Url="html/38594613-6c39-88f1-79ae-feac9143e5cf.htm">
+        <HelpTOCNode Title="RandomStringGenerator Constructor " Url="html/f0a3f8bd-fdbf-2197-460e-08cfca544fb3.htm" />
+        <HelpTOCNode Id="a4ab87b5-3e2e-4cc3-a752-336308cf2ea8" Title="RandomStringGenerator Methods" Url="html/23fd6d35-4fac-b2f6-b801-923e982c33f9.htm">
+          <HelpTOCNode Title="GenerateRandomString Method " Url="html/a2ff08f3-301c-190a-adea-4de46d26a5b1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="3262e3f9-b73f-410a-adbc-3b7d0680d019" Title="ServerTests Class" Url="html/d2fb4051-9902-8ec2-4d6c-d7bfdca123b2.htm">
+        <HelpTOCNode Title="ServerTests Constructor " Url="html/41200694-9377-77b4-1f38-dd145dd2c086.htm" />
+        <HelpTOCNode Id="b721981f-d697-48ce-b86d-b39544a814e5" Title="ServerTests Methods" Url="html/c504cd72-8960-a440-44dd-d06d988311fd.htm">
+          <HelpTOCNode Title="StartServer_NoOtherServerOnTheSameUrlIsRunning_ServerIsStarted Method " Url="html/8b1ad374-4395-c42b-0432-ef5f87f3c607.htm" />
+          <HelpTOCNode Title="StartServer_ServerIsAlreadyRunningOnSpecifiedUrl_ServerDoesNotStart Method " Url="html/884d237e-5287-da02-4bb3-9807b570a22e.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

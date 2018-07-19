@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BettingParlor_Refactor.BetFactory">
+    <Position X="11.25" Y="9.5" Width="4.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="BettingParlor_Refactor.BetFactory.BetSort">
+        <TypeIdentifier>
+          <NewMemberFileName>BetFactory.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BetFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BettingParlor_Refactor.Bettor">
+    <Position X="0.5" Y="13.25" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAABAgAAAAAAA=</HashCode>
+      <FileName>Bettor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BettingParlor_Refactor.Client">
+    <Position X="19.25" Y="6.25" Width="5.25" />
+    <Members>
+      <Property Name="Connection" Hidden="true" />
+      <Property Name="FormClient" Hidden="true" />
+      <Property Name="HubProxy" Hidden="true" />
+      <Method Name="UpdateMyLabelOnTheForm" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AQQAIAAAAAACAAEAAAAAAAAAQAAAAQAAAIEQAAEAAAA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BettingParlor_Refactor.ClientServerConnectionsHub">
+    <Position X="12" Y="5.75" Width="6.75" />
+    <Members>
+      <Method Name="AddCashToAdminAccountInDatabase" Hidden="true" />
+      <Field Name="connectedClientsGroup" Hidden="true" />
+      <Method Name="EndRaceOnClientForm" Hidden="true" />
+      <Property Name="FormServer" Hidden="true" />
+      <Method Name="GetAdminAccountBalance" Hidden="true" />
+      <Field Name="hubContext" Hidden="true" />
+      <Method Name="JoinGroup" Hidden="true" />
+      <Method Name="LeaveGroup" Hidden="true" />
+      <Method Name="PlaceAdminBet" Hidden="true" />
+      <Method Name="Send" Hidden="true" />
+      <Method Name="SendAdminCurrentAccountBalanceToDatabase" Hidden="true" />
+      <Method Name="SendNotificationRace" Hidden="true" />
+      <Method Name="UpdateClientsBetTable" Hidden="true" />
+      <Method Name="UpdateCurrentCallerLabel" Hidden="true" />
+      <Method Name="WriteToAdminConsole" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEECIAIAAAEAoAFMBEIAIEACAAiAAAIAAAAAAAACAAA=</HashCode>
+      <FileName>ClientServerConnectionsHub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BettingParlor_Refactor.Dog">
+    <Position X="22" Y="13.25" Width="2.25" />
+    <Members>
+      <Property Name="GetLocation" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAAAAECAAAAAAAAAAAAAAECAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Dog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BettingParlor_Refactor.GreyHound">
+    <Position X="20.25" Y="16" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>GreyHound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BettingParlor_Refactor.LoadUserData">
+    <Position X="7" Y="7" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>LoadUserData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BettingParlor_Refactor.ManageUserData">
+    <Position X="0.5" Y="7" Width="5.75" />
+    <Members>
+      <Method Name="AddCashToAdminAccount" Hidden="true" />
+      <Method Name="PlaceAdminBet" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAABgAAAAAAAACAQAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>ManageUserData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BettingParlor_Refactor.Parlor">
+    <Position X="7.25" Y="13" Width="4.25" />
+    <Members>
+      <Method Name="UpdateAdminCashLabel" Hidden="true" />
+      <Method Name="UpdateUserFormOnRaceEnd" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEgAAQAgAAgAAAAAAAAAAABAgAAAAAAA=</HashCode>
+      <FileName>Parlor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BettingParlor_Refactor.Server">
+    <Position X="1.5" Y="15.25" Width="3" />
+    <Members>
+      <Property Name="GetAdminName" Hidden="true" />
+      <Property Name="GetServerUrl" Hidden="true" />
+      <Property Name="SignalR" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAACAQgAABCAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Server.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BettingParlor_Refactor.User">
+    <Position X="5.75" Y="9.5" Width="4.25" />
+    <Members>
+      <Property Name="Cash" Hidden="true" />
+      <Property Name="Name" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAgEAAQAAAAEAAAAAAgAAAQAAAAEAAAAABAoAAAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BettingParlor_Refactor.UserData">
+    <Position X="3.5" Y="4.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgCAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>UserData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BettingParlor_Refactor.Bet">
+    <Position X="12" Y="17" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BettingParlor_Refactor.BetDummy">
+    <Position X="12.75" Y="20" Width="3.25" />
+    <InheritanceLine Type="BettingParlor_Refactor.Bet" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.625" Y="18.747" />
+        <Point X="13.625" Y="19.876" />
+        <Point X="13.625" Y="19.876" />
+        <Point X="13.625" Y="20" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BetDummy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BettingParlor_Refactor.BetHandicap">
+    <Position X="16.75" Y="20" Width="3.25" />
+    <InheritanceLine Type="BettingParlor_Refactor.Bet" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.625" Y="18.747" />
+        <Point X="13.625" Y="19.625" />
+        <Point X="18.104" Y="19.625" />
+        <Point X="18.104" Y="20" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BetHandicap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BettingParlor_Refactor.BetStandard">
+    <Position X="8.75" Y="20" Width="3.25" />
+    <Members>
+      <Property Name="GetAmount" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BetStandard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BettingParlor_Refactor.FormServer">
+    <Position X="17" Y="9.5" Width="4.75" />
+    <Members>
+      <Field Name="amountBetDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="bettingParlorDataSet" Hidden="true" />
+      <Field Name="bettorNameDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="buttonAddCash" Hidden="true" />
+      <Method Name="ButtonAddCash_Click" Hidden="true" />
+      <Field Name="buttonHandicap" Hidden="true" />
+      <Method Name="ButtonHandicap_Click" Hidden="true" />
+      <Field Name="buttonPlaceBet" Hidden="true" />
+      <Method Name="ButtonPlaceBet_Click" Hidden="true" />
+      <Field Name="buttonSignOut" Hidden="true" />
+      <Method Name="ButtonSignOut_Click" Hidden="true" />
+      <Field Name="buttonStartRace" Hidden="true" />
+      <Method Name="ButtonStartRace_Click" Hidden="true" />
+      <Method Name="CheckIfRaceIsOn" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="counterHandicapPanelDeactivate" Hidden="true" />
+      <Field Name="currentBetsBindingSource" Hidden="true" />
+      <Field Name="currentBetsTableAdapter" Hidden="true" />
+      <Field Name="dataGridViewCurrentBetts" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="dogToWinDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="formPlaceBet" Hidden="true" />
+      <Method Name="FormServer_Load" Hidden="true" />
+      <Property Name="GetRichTextBoxConsole" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="labelChat" Hidden="true" />
+      <Field Name="labelCurrentBets" Hidden="true" />
+      <Field Name="labelDogNumber" Hidden="true" />
+      <Field Name="labelPlaceHandicap" Hidden="true" />
+      <Field Name="labelPlayerCurrentAccountBalance" Hidden="true" />
+      <Field Name="labelRules" Hidden="true" />
+      <Field Name="labelSignDolar" Hidden="true" />
+      <Field Name="numberDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="numericUpDownDogToWin" Hidden="true" />
+      <Field Name="numericUpDownHandiCapValue" Hidden="true" />
+      <Field Name="panelHandicap" Hidden="true" />
+      <Field Name="pictureBoxDog1" Hidden="true" />
+      <Field Name="pictureBoxDog2" Hidden="true" />
+      <Field Name="pictureBoxDog3" Hidden="true" />
+      <Field Name="pictureBoxDog4" Hidden="true" />
+      <Field Name="pictureBoxRaceTrack" Hidden="true" />
+      <Property Name="RefToFormLogin" Hidden="true" />
+      <Field Name="richTextBoxConsole" Hidden="true" />
+      <Field Name="timerRaceTime" Hidden="true" />
+      <Method Name="TimerRaceTime_Tick" Hidden="true" />
+      <Method Name="UpdateDataGriedView" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>MKIAEAAhAiAEDEBChgCAxQIKICIgQIhEGIAAgDIRggY=</HashCode>
+      <FileName>FormServer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="server" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BettingParlor_Refactor.FormClient">
+    <Position X="23.75" Y="9.5" Width="4.75" />
+    <Members>
+      <Field Name="amountBetDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="bettingParlorDataSet" Hidden="true" />
+      <Field Name="bettorNameDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="buttonAddCash" Hidden="true" />
+      <Method Name="ButtonAddCash_Click" Hidden="true" />
+      <Field Name="buttonHandicap" Hidden="true" />
+      <Method Name="ButtonHandicap_Click" Hidden="true" />
+      <Field Name="buttonPlaceBet" Hidden="true" />
+      <Method Name="ButtonPlaceBet_Click" Hidden="true" />
+      <Field Name="buttonSend" Hidden="true" />
+      <Method Name="ButtonSend_Click" Hidden="true" />
+      <Field Name="buttonSignOut" Hidden="true" />
+      <Method Name="ButtonSignOut_Click" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="currentBetsBindingSource" Hidden="true" />
+      <Field Name="currentBetsTableAdapter" Hidden="true" />
+      <Field Name="dataGridViewCurrentBetts" Hidden="true" />
+      <Method Name="DisableSignOutOptionAfterPlacingStandardBet" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="dogToWinDataGridViewTextBoxColumn" Hidden="true" />
+      <Method Name="FormClient_Load" Hidden="true" />
+      <Field Name="formPlaceBet" Hidden="true" />
+      <Property Name="GetRichTextBoxConsole" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="labelChat" Hidden="true" />
+      <Field Name="labelCurrentBets" Hidden="true" />
+      <Field Name="labelDogNumber" Hidden="true" />
+      <Field Name="labelPlaceHandicap" Hidden="true" />
+      <Field Name="labelPlayerCurrentAccountBalance" Hidden="true" />
+      <Field Name="labelRaceStatus" Hidden="true" />
+      <Field Name="labelRules" Hidden="true" />
+      <Field Name="labelSignDolar" Hidden="true" />
+      <Field Name="numberDataGridViewTextBoxColumn" Hidden="true" />
+      <Field Name="numericUpDownDogToWin" Hidden="true" />
+      <Field Name="numericUpDownHandiCapValue" Hidden="true" />
+      <Field Name="panelHandicap" Hidden="true" />
+      <Field Name="pictureBoxDog1" Hidden="true" />
+      <Field Name="pictureBoxDog2" Hidden="true" />
+      <Field Name="pictureBoxDog3" Hidden="true" />
+      <Field Name="pictureBoxDog4" Hidden="true" />
+      <Field Name="pictureBoxRaceTrack" Hidden="true" />
+      <Property Name="RefToFormLogin" Hidden="true" />
+      <Field Name="richTextBoxConsole" Hidden="true" />
+      <Method Name="ShowResultBet" Hidden="true" />
+      <Field Name="textBoxMessage" Hidden="true" />
+      <Method Name="UpdateCurrentAccountBalanceLabel" Hidden="true" />
+      <Method Name="UpdateDataGriedView" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>MKAAEAAgAiAMAEBChkCAxAIOIDZgQIhEGgQAgDARggY=</HashCode>
+      <FileName>FormClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="BettingParlor_Refactor.IBetSort">
+    <Position X="11.75" Y="13.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IBetSort.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

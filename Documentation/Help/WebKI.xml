@@ -1,0 +1,733 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AddCashToAdminAccount method" Url="html/77b9ce09-cf1c-2a4c-5e30-869850e0496d.htm" />
+  <HelpKINode Title="AddCashToAdminAccountInDatabase method" Url="html/9cad5c17-aa70-fb6c-e825-68cd3b92b813.htm" />
+  <HelpKINode Title="AddCashToClientAccount method" Url="html/2d2a3418-5912-fc65-9749-6c530d18488b.htm" />
+  <HelpKINode Title="AddCashToClientAccount_ClientTransfersCertainAmountOfCash_HisAccountBalanceIsUpdated method" Url="html/bf0ae038-abd2-c7c1-cb57-2d9c71e34837.htm" />
+  <HelpKINode Title="AddCashToCurrentCallerAccount method" Url="html/aae91f97-55db-4ea3-29dd-b7e1c9888163.htm" />
+  <HelpKINode Title="AddCashToMyAccount method">
+    <HelpKINode Title="Bettor.AddCashToMyAccount Method " Url="html/384d5fb7-156a-68b3-ceda-f4e9e4ccefe5.htm" />
+    <HelpKINode Title="Parlor.AddCashToMyAccount Method " Url="html/19e1cc83-d722-d4b7-114a-6161b939530c.htm" />
+    <HelpKINode Title="User.AddCashToMyAccount Method " Url="html/38646588-d3d5-ada8-8a64-b4afc8db276f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddCashToMyAccountOnServer method" Url="html/4ce7664e-d7cd-734c-6fd6-abb39bfd8cf0.htm" />
+  <HelpKINode Title="AddClientToList method" Url="html/0a29b37a-68a1-1600-5ad6-1b2dccd831e3.htm" />
+  <HelpKINode Title="AddClientToList_ClientDictionaryIsEmptyOrClientIsNotInDictionary_CLientIsAddedToDictionaryReturnTrue method" Url="html/2281cdb3-97ac-4849-449e-842286fa3841.htm" />
+  <HelpKINode Title="AddCLientToList_ClientIsAlreadyInDictionary_ClientIsNotAddedReturnFalse method" Url="html/6d7e1517-1044-7ef0-0148-3c30bf5a9375.htm" />
+  <HelpKINode Title="administrator field" Url="html/126b6d8e-77ae-1de8-90cd-2455312daec8.htm" />
+  <HelpKINode Title="adminName field" Url="html/a13e9360-8da6-6976-3e6a-fadf97d97ffd.htm" />
+  <HelpKINode Title="amount field" Url="html/f9946bce-6bbf-c676-9137-ed28890a7d40.htm" />
+  <HelpKINode Title="Bet class">
+    <HelpKINode Title="Bet Class" Url="html/cd050178-1eb6-54a4-2446-887710a9dbf7.htm" />
+    <HelpKINode Title="constructor" Url="html/aae4b58c-a52a-85b1-7723-d23c0d9ea4c7.htm" />
+    <HelpKINode Title="fields" Url="html/cc6e79c1-d9d2-5e66-27f2-3658d73cb946.htm" />
+    <HelpKINode Title="methods" Url="html/4f90e9f2-ce84-214d-3eb6-25e257f4daa0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Bet.amount field" Url="html/f9946bce-6bbf-c676-9137-ed28890a7d40.htm" />
+  <HelpKINode Title="Bet.Bet constructor" Url="html/aae4b58c-a52a-85b1-7723-d23c0d9ea4c7.htm" />
+  <HelpKINode Title="Bet.dogToWin field" Url="html/75d5ceaa-589d-39a2-145d-e799cc436be3.htm" />
+  <HelpKINode Title="Bet.PayOutTheAmountWon method" Url="html/79a30eb6-2cc5-3096-f1d9-3fe1d806c6f1.htm" />
+  <HelpKINode Title="BetDummy class">
+    <HelpKINode Title="BetDummy Class" Url="html/fba3617d-6c17-2bac-0602-d00f52fbd1c3.htm" />
+    <HelpKINode Title="constructor" Url="html/956e103a-858b-95d9-55d8-96e3adc7a0bf.htm" />
+    <HelpKINode Title="fields" Url="html/c4513bbc-8cd1-5046-906d-4dc142af7e53.htm" />
+    <HelpKINode Title="methods" Url="html/f6c8a80b-fa04-0026-a20a-31f6c6d4f8ed.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BetDummy.BetDummy constructor" Url="html/956e103a-858b-95d9-55d8-96e3adc7a0bf.htm" />
+  <HelpKINode Title="BetDummy.PayOutTheAmountWon method" Url="html/cd1866d8-c61e-991e-d14e-47f986454be2.htm" />
+  <HelpKINode Title="BetFactory class">
+    <HelpKINode Title="BetFactory Class" Url="html/37f08a89-bf15-1c00-5931-d569bcce8f99.htm" />
+    <HelpKINode Title="constructor" Url="html/7ccedb99-1b24-81fb-c5f6-7095f73a68ea.htm" />
+    <HelpKINode Title="methods" Url="html/2a74874a-114e-ba64-5e2c-8f927c101feb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="betFactory field" Url="html/e7d770a5-642d-c5a0-093c-1a023b415075.htm" />
+  <HelpKINode Title="BetFactory.BetFactory constructor" Url="html/7ccedb99-1b24-81fb-c5f6-7095f73a68ea.htm" />
+  <HelpKINode Title="BetFactory.BetSort enumeration" Url="html/b5d6bd05-7382-edb6-5186-0b748e871cbe.htm" />
+  <HelpKINode Title="BetFactory.CreateBet method" Url="html/ead990b8-b2fc-763a-1706-936760fb424d.htm" />
+  <HelpKINode Title="BetHandicap class">
+    <HelpKINode Title="BetHandicap Class" Url="html/4a15d8fc-c0bf-7841-2faa-59238d4b9091.htm" />
+    <HelpKINode Title="constructor" Url="html/db22261c-43e2-7053-15f5-a1f61b971060.htm" />
+    <HelpKINode Title="fields" Url="html/0847a8ac-a7bc-14db-81b2-d48ec62b8975.htm" />
+    <HelpKINode Title="methods" Url="html/33aee3f4-b950-5afe-0d59-08f2aeebb96d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BetHandicap.BetHandicap constructor" Url="html/db22261c-43e2-7053-15f5-a1f61b971060.htm" />
+  <HelpKINode Title="BetHandicap.PayOutTheAmountWon method" Url="html/dea85cbb-2bcf-6f3d-dff2-aa0903a6040d.htm" />
+  <HelpKINode Title="betSort field" Url="html/6ad1cf57-2777-7506-623b-be12e7a8129d.htm" />
+  <HelpKINode Title="BetStandard class">
+    <HelpKINode Title="BetStandard Class" Url="html/a67fb5f9-2013-423b-3aa7-1b21bcd4a3c5.htm" />
+    <HelpKINode Title="constructor" Url="html/b74c9f21-dd2e-7432-08cb-df2b246c4d6c.htm" />
+    <HelpKINode Title="fields" Url="html/fcb745ae-7d60-fcbe-511e-e5ebb0fad1da.htm" />
+    <HelpKINode Title="methods" Url="html/cb84bee2-ed8c-af05-2e77-7c3891de06a2.htm" />
+    <HelpKINode Title="properties" Url="html/0c752e75-d70c-2328-69cc-28eaa424bb55.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BetStandard.BetStandard constructor" Url="html/b74c9f21-dd2e-7432-08cb-df2b246c4d6c.htm" />
+  <HelpKINode Title="BetStandard.GetAmount property" Url="html/026ba4bc-3d5c-15e7-36e6-faf7d802e3d7.htm" />
+  <HelpKINode Title="BetStandard.PayOutTheAmountWon method" Url="html/c8709c10-0973-8027-4bba-242f862837a3.htm" />
+  <HelpKINode Title="BetTests class">
+    <HelpKINode Title="BetTests Class" Url="html/1870a966-1613-3c17-5423-1a7350221c73.htm" />
+    <HelpKINode Title="constructor" Url="html/d2d8f532-bfee-99ed-daa3-3b360929481a.htm" />
+    <HelpKINode Title="methods" Url="html/2a37b71c-ca42-1eff-e13e-b37ae5f8fded.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BetTests.BetTests constructor" Url="html/d2d8f532-bfee-99ed-daa3-3b360929481a.htm" />
+  <HelpKINode Title="BetTests.PayOutTheAmountWon_HandicapBetIsPlacedOnDogWichLost_ZeroIsReturned method" Url="html/c9e91a77-9eb2-7eff-fb5c-4fda6e9b20e1.htm" />
+  <HelpKINode Title="BetTests.PayOutTheAmountWon_HandicapIsPlacedOnDogWichWon_PlacedValueMultupliedByOnePointFive method" Url="html/a6b98058-4c23-c0fb-e512-366bbf99a4a9.htm" />
+  <HelpKINode Title="BetTests.PayOutTheAmountWon_StandardBetIsPlacedOnDogWichLost_ZeroIsReturned method" Url="html/ac6d620b-e086-e110-8b0d-2a408e848267.htm" />
+  <HelpKINode Title="BetTests.PayOutTheAmountWon_StandardBetIsPlacedOnDogWichWon_DoubleOfPlacedValueIsReturned method" Url="html/434d54a2-727f-1437-daec-259b7bbaad60.htm" />
+  <HelpKINode Title="BettingParlor_Refactor namespace" Url="html/056f7b90-f07b-98fd-83e7-b56af24cb721.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.Bet class" Url="html/cd050178-1eb6-54a4-2446-887710a9dbf7.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.BetDummy class" Url="html/fba3617d-6c17-2bac-0602-d00f52fbd1c3.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.BetFactory class" Url="html/37f08a89-bf15-1c00-5931-d569bcce8f99.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.BetFactory.BetSort enumeration" Url="html/b5d6bd05-7382-edb6-5186-0b748e871cbe.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.BetHandicap class" Url="html/4a15d8fc-c0bf-7841-2faa-59238d4b9091.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.BetStandard class" Url="html/a67fb5f9-2013-423b-3aa7-1b21bcd4a3c5.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.BettingParlorDataSetTableAdapters namespace" Url="html/20996c42-3ebd-a996-85f7-c98139b97785.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.BettingParlorDataSetTableAdapters.TableAdapterManager class" Url="html/0aca3307-7023-addf-681b-8eaec45066de.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.BettingParlorDataSetTableAdapters.TableAdapterManager.UpdateOrderOption enumeration" Url="html/0c4c20fc-6652-e101-862b-b94e184e26e0.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.Bettor class" Url="html/89b06b12-58b4-0bb2-1648-5163818317e0.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.Client class" Url="html/ab14c9ac-a950-5ff4-927f-b5540a979ace.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.ClientServerConnectionsHub class" Url="html/c168f375-1d75-3608-0ef8-ea25ca005df1.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.DataClassesBettingParlorDataContext class" Url="html/5e525497-53b7-2ae3-2ebe-a3411b5300ba.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.Dog class" Url="html/12d8c6b1-ed07-3b8a-dd62-91ea3f909521.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.FormAddCash class" Url="html/b4f23b71-af84-1973-b36f-bfe545020e88.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.FormClient class" Url="html/357215ad-9197-43f2-67e7-91e77c039377.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.FormLogin class" Url="html/9313be7e-e230-9d9e-c49b-d53138e7a621.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.FormLogin.Result enumeration" Url="html/85bc0018-105d-2f37-a0ab-1ada186a1a74.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.FormMenu class" Url="html/a815a1dd-2228-e2eb-23e3-98878b8f67d0.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.FormPlaceBet class" Url="html/9834da95-5564-58d3-277c-8fae7f59bb44.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.FormRules class" Url="html/e7e13940-52aa-77e7-7763-2b5b23481594.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.FormServer class" Url="html/cd417083-16e7-87a8-256f-786a49409893.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.GreyHound class" Url="html/de899452-47ee-3102-253b-8454b3f76937.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.IBetSort interface" Url="html/0768eb4d-fa28-b658-871d-918231c454ff.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.LoadUserData class" Url="html/6c634385-03ac-3bbb-f4af-1b6f84791e15.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.Login class" Url="html/422e0d1c-8178-0940-a923-a67498de2b4e.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.ManageUserData class" Url="html/36cb2ff2-1714-391d-442d-843371e4b80b.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.Parlor class" Url="html/09f8f608-d764-d4bb-5c72-c4f8e3d6eba2.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.Program class" Url="html/97cc6f52-bd54-3371-b74e-b2ee525d9176.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.Server class" Url="html/53272eba-900d-dcc9-dcb0-8785dcb56226.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.Startup class" Url="html/7aab1d6c-0a3e-00ca-fbd2-881a7122fd7b.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.UnitTests namespace" Url="html/bd984064-07e8-b988-150b-e312f57b97d0.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.UnitTests.BetTests class" Url="html/1870a966-1613-3c17-5423-1a7350221c73.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.UnitTests.ClientFactory class" Url="html/1bf4a309-e969-b364-c10b-c8a742956787.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.UnitTests.ClientTests class" Url="html/a22bdcfe-de39-c03a-b65f-2ca2fb456f89.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.UnitTests.LoadUserDataTests class" Url="html/fff9ca91-3cb8-2e85-0210-fd1fa5bdeca2.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.UnitTests.LoginTests class" Url="html/43d6c2d8-a00f-a354-09a4-bb968caae50f.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.UnitTests.ManageUserDataTests class" Url="html/25d1aae6-a493-63ce-a466-68e797ab5acd.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.UnitTests.RandomStringGenerator class" Url="html/38594613-6c39-88f1-79ae-feac9143e5cf.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.UnitTests.ServerTests class" Url="html/d2fb4051-9902-8ec2-4d6c-d7bfdca123b2.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.User class" Url="html/0c4b18b1-2bc9-1386-23f1-61e093bc9e2d.htm" />
+  <HelpKINode Title="BettingParlor_Refactor.UserData class" Url="html/0dcf1a73-90b4-c92f-b4b9-f45c2caf7cab.htm" />
+  <HelpKINode Title="Bettor class">
+    <HelpKINode Title="Bettor Class" Url="html/89b06b12-58b4-0bb2-1648-5163818317e0.htm" />
+    <HelpKINode Title="constructor" Url="html/eb9a32b7-2c58-6fb6-0aef-aeac773d7f42.htm" />
+    <HelpKINode Title="fields" Url="html/d33d7827-b9bf-95bf-1a8d-e52c187ec221.htm" />
+    <HelpKINode Title="methods" Url="html/c120f76d-8577-49c6-081b-9b593339283b.htm" />
+    <HelpKINode Title="properties" Url="html/d480d7ee-cc3c-ed50-d6ff-360fc0e40135.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Bettor.AddCashToMyAccount method" Url="html/384d5fb7-156a-68b3-ceda-f4e9e4ccefe5.htm" />
+  <HelpKINode Title="Bettor.Bettor constructor" Url="html/eb9a32b7-2c58-6fb6-0aef-aeac773d7f42.htm" />
+  <HelpKINode Title="Bettor.CollectBet method" Url="html/6b28c125-39e8-82f1-91c3-4c9b92303647.htm" />
+  <HelpKINode Title="Bettor.PlaceBet method" Url="html/f8c648d9-ec79-7721-bcc6-58966024e67c.htm" />
+  <HelpKINode Title="ButtonAddCash_Click method">
+    <HelpKINode Title="FormClient.ButtonAddCash_Click Method " Url="html/8925d0d6-8d4d-88a4-e85f-8a9748756d5a.htm" />
+    <HelpKINode Title="FormServer.ButtonAddCash_Click Method " Url="html/ff6568d9-c2c5-9f77-e887-696abb3c9bb2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ButtonAdd_Click method" Url="html/b9c15aaf-f01d-82b2-9017-980d8d3036c3.htm" />
+  <HelpKINode Title="ButtonBackToMainMenu_Click method" Url="html/60c0f626-d134-ab6f-69ba-f90b98649180.htm" />
+  <HelpKINode Title="ButtonCancel_Click method" Url="html/68d6bd2f-cf80-2f2d-4a28-365474ffbb76.htm" />
+  <HelpKINode Title="ButtonExitTheApplication_Click method" Url="html/9bfb2118-5585-028a-def8-55bc94b331e9.htm" />
+  <HelpKINode Title="buttonExit_Click method" Url="html/2ba4975e-33e7-4fba-52e4-19887e375a79.htm" />
+  <HelpKINode Title="buttonGameStart_Click method" Url="html/d31bafb0-1876-5ad4-bf54-6147199e5b79.htm" />
+  <HelpKINode Title="ButtonHandicap_Click method">
+    <HelpKINode Title="FormClient.ButtonHandicap_Click Method " Url="html/f8353a42-d1cf-fc28-81e2-778be08d127e.htm" />
+    <HelpKINode Title="FormServer.ButtonHandicap_Click Method " Url="html/61ef8275-a920-b8c2-d641-f95edcb12367.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ButtonLogin_Click method" Url="html/31fe111a-b061-d888-4759-f2a79ac308f2.htm" />
+  <HelpKINode Title="buttonPlaceBet_Click method" Url="html/e2688a44-3d6b-654d-8e48-726c8948448e.htm" />
+  <HelpKINode Title="ButtonPlaceBet_Click method">
+    <HelpKINode Title="FormClient.ButtonPlaceBet_Click Method " Url="html/fdf46a6c-5410-6996-8347-9a427ffe6ca3.htm" />
+    <HelpKINode Title="FormServer.ButtonPlaceBet_Click Method " Url="html/5f94d1c0-f0f3-39a9-86bb-9875531dd801.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ButtonRegister_Click method" Url="html/38773828-94a1-2645-f0de-6717a2e01cf2.htm" />
+  <HelpKINode Title="buttonRules_Click method" Url="html/8851591e-e53f-ee63-21d9-f4106cbf1feb.htm" />
+  <HelpKINode Title="ButtonSend_Click method" Url="html/4aa98880-112a-a9b3-7231-6daf522e5be8.htm" />
+  <HelpKINode Title="ButtonSignOut_Click method">
+    <HelpKINode Title="FormClient.ButtonSignOut_Click Method " Url="html/7a850d19-1eb5-f4fb-5f56-339d951d52b6.htm" />
+    <HelpKINode Title="FormServer.ButtonSignOut_Click Method " Url="html/765aee82-7e3f-007e-d642-7d4257a5c454.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ButtonStartRace_Click method" Url="html/aa682d27-327c-60af-5d62-6703b8c5b3ed.htm" />
+  <HelpKINode Title="cash field" Url="html/86d238e7-bfca-1c1f-f907-81d8d3210045.htm" />
+  <HelpKINode Title="Cash property" Url="html/620676bd-777c-c32f-3289-0b3e5357fda1.htm" />
+  <HelpKINode Title="CheckIfRaceIsOn method" Url="html/518bc7e9-95df-dbf4-80f0-0d036a4425c5.htm" />
+  <HelpKINode Title="CheckIfTextBoxesAreEmpty method" Url="html/515a041a-89c5-874a-75b0-25259ef3cf96.htm" />
+  <HelpKINode Title="ClearBet method" Url="html/55039ff0-9594-07bf-2216-8fe35fa51bfe.htm" />
+  <HelpKINode Title="ClearControls method" Url="html/9f6e154e-f1fc-e9c1-fdc8-48acfa172f51.htm" />
+  <HelpKINode Title="Client class">
+    <HelpKINode Title="Client Class" Url="html/ab14c9ac-a950-5ff4-927f-b5540a979ace.htm" />
+    <HelpKINode Title="constructor" Url="html/081a813d-64a9-5034-6bf2-bf29b67d097e.htm" />
+    <HelpKINode Title="fields" Url="html/39e9b57f-5e59-a459-36fd-35e4025441a3.htm" />
+    <HelpKINode Title="methods" Url="html/80c53c23-dc9c-b2cf-61e7-790dc9ef4d85.htm" />
+    <HelpKINode Title="properties" Url="html/2c899bcf-b672-f38b-9413-0e781e21a8cc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Client.AddCashToMyAccountOnServer method" Url="html/4ce7664e-d7cd-734c-6fd6-abb39bfd8cf0.htm" />
+  <HelpKINode Title="Client.Client constructor" Url="html/081a813d-64a9-5034-6bf2-bf29b67d097e.htm" />
+  <HelpKINode Title="Client.Connection property" Url="html/72dd0e39-daa6-c2fb-15cf-6d3131838c37.htm" />
+  <HelpKINode Title="Client.ConnectToServer method" Url="html/8132fb7b-30f1-08e4-91c6-b825d2f50e10.htm" />
+  <HelpKINode Title="Client.Disconnect method" Url="html/ee9aa269-e56d-7b63-29a2-8ff1b6c89b79.htm" />
+  <HelpKINode Title="Client.FormClient property" Url="html/3ebc8f24-1752-80b6-37f4-0ff7fe198a3e.htm" />
+  <HelpKINode Title="Client.HubProxy property" Url="html/6254d084-3e1e-33b8-5cab-bd4a47947619.htm" />
+  <HelpKINode Title="Client.PlaceMyBetOnServer method" Url="html/56885834-b7f6-de90-942f-d3dfde66213f.htm" />
+  <HelpKINode Title="Client.SendMessageToAllPlayers method" Url="html/71ef32a5-0b4d-0804-a8f0-83c9b3ef65ef.htm" />
+  <HelpKINode Title="Client.ServerURI field" Url="html/4239d8da-5a36-5371-f057-6c59ee6d3395.htm" />
+  <HelpKINode Title="Client.UpdateMyLabelOnTheForm method" Url="html/8526fdd1-4008-1412-0855-06367eba2bce.htm" />
+  <HelpKINode Title="Client.userName field" Url="html/a4e413a6-346f-c197-99e2-986737e621a2.htm" />
+  <HelpKINode Title="ClientFactory class">
+    <HelpKINode Title="ClientFactory Class" Url="html/1bf4a309-e969-b364-c10b-c8a742956787.htm" />
+    <HelpKINode Title="constructor" Url="html/723f8c18-9ec5-5999-1f89-18beab8e99c8.htm" />
+    <HelpKINode Title="fields" Url="html/0f9151f3-ec7f-b138-54ea-cf5458ba23db.htm" />
+    <HelpKINode Title="methods" Url="html/8ffa2c18-cdbf-442c-a3c8-07a35cbd514b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ClientFactory.ClientFactory constructor" Url="html/723f8c18-9ec5-5999-1f89-18beab8e99c8.htm" />
+  <HelpKINode Title="ClientFactory.connectionId field" Url="html/4a0f9355-0c99-50d2-73c5-06c8b9952dd7.htm" />
+  <HelpKINode Title="ClientFactory.CreateUserinDatabase method" Url="html/aae1889e-d4cc-56ae-3280-30e6cd00923f.htm" />
+  <HelpKINode Title="ClientFactory.DeleteUserFromDatabase method" Url="html/13bec527-3027-fd72-622a-1bc5c6481654.htm" />
+  <HelpKINode Title="ClientFactory.formLogin field" Url="html/49f1f654-4522-2944-43a4-450f68acfedf.htm" />
+  <HelpKINode Title="ClientFactory.password field" Url="html/369d9089-1738-80e4-5e7f-5da801b00d2f.htm" />
+  <HelpKINode Title="ClientFactory.username field" Url="html/7a609d25-3571-ebce-bf5e-aa3478dfba7f.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub class">
+    <HelpKINode Title="ClientServerConnectionsHub Class" Url="html/c168f375-1d75-3608-0ef8-ea25ca005df1.htm" />
+    <HelpKINode Title="constructor" Url="html/05c07d8e-1c40-67a7-9a09-a84c693afdc2.htm" />
+    <HelpKINode Title="fields" Url="html/466375a2-96b9-061e-b04e-4e50b1a9c06f.htm" />
+    <HelpKINode Title="methods" Url="html/be61a37d-2f4d-4f24-75a6-97fd53537ecf.htm" />
+    <HelpKINode Title="properties" Url="html/0dd0bc80-1f7b-bf62-6e82-fec02b1c6c17.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ClientServerConnectionsHub.AddCashToAdminAccountInDatabase method" Url="html/9cad5c17-aa70-fb6c-e825-68cd3b92b813.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.AddCashToCurrentCallerAccount method" Url="html/aae91f97-55db-4ea3-29dd-b7e1c9888163.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.ClientServerConnectionsHub constructor" Url="html/05c07d8e-1c40-67a7-9a09-a84c693afdc2.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.CollectClientBetsAfterRaceEnd method" Url="html/c823412a-8780-4266-c5e9-ceed74cdb9e6.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.connectedClientsGroup field" Url="html/2a1838a7-8fd8-df02-62e2-3e9b795e1217.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.EndRaceOnClientForm method" Url="html/91295dab-30f7-67e4-0661-96ee2e0b6bad.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.FormServer property" Url="html/7160d89c-a23a-4364-c93b-dba57b822413.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.GetAdminAccountBalance method" Url="html/4fe6c15b-91c7-0393-9856-bcdcc4d31988.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.hubContext field" Url="html/81d2bd02-e52a-f62c-0471-6515be51ccdb.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.JoinGroup method" Url="html/dee0d923-b7ba-74d1-3040-6eefa69f90ad.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.LeaveGroup method" Url="html/93a297d0-62dd-842e-9d10-7b7cc8338ec2.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.loadUserData field" Url="html/77b51d4e-cbf0-a123-6217-a12f8f96f0c4.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.manageUserData field" Url="html/0b6737b2-d688-8aeb-e51c-4c6752e7df75.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.OnConnected method" Url="html/12e21390-d5e6-55a6-0ba6-20b7792de66f.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.OnDisconnected method" Url="html/3bbf39b5-b395-6d1e-bcd0-ce8e83c3039a.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.PlaceAdminBet method" Url="html/6b4c4eae-a261-cc55-44af-21a71794f14d.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.PlaceBetOfTheCurrentCaller method" Url="html/0249a318-8e03-c92f-7c19-d57a61af4ebd.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.Send method" Url="html/3425a58f-41be-e3cc-b368-fb41d5cbe8cc.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.SendAdminCurrentAccountBalanceToDatabase method" Url="html/f0cd0aba-8a97-ad13-4f8a-f787a72de98e.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.SendDogsLocationToAllPlayers method" Url="html/3fa5da10-49b8-0631-ce2e-b432d1b62e69.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.SendNotificationRace method" Url="html/a48201f4-e41c-3d0f-5f28-800aa4706a1f.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.UpdateClientsBetTable method" Url="html/f212881d-e4aa-fb73-4bfc-410cf5f58ee0.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.UpdateCurrentCallerLabel method" Url="html/ced0b71a-a81b-8018-8eae-3798aadc779d.htm" />
+  <HelpKINode Title="ClientServerConnectionsHub.WriteToAdminConsole method" Url="html/3212a2c1-39a8-82e3-6d5a-cd162f6f451c.htm" />
+  <HelpKINode Title="ClientTests class">
+    <HelpKINode Title="ClientTests Class" Url="html/a22bdcfe-de39-c03a-b65f-2ca2fb456f89.htm" />
+    <HelpKINode Title="constructor" Url="html/a81970cc-e659-314c-3c6b-1654277f1a48.htm" />
+    <HelpKINode Title="methods" Url="html/0a9f9de1-8827-8795-fa1b-18fefaeb52be.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ClientTests.ClientTests constructor" Url="html/a81970cc-e659-314c-3c6b-1654277f1a48.htm" />
+  <HelpKINode Title="ClientTests.ConnectToServer_ServerIsDown_ClientCanNotConnectToServer method" Url="html/ff724d09-31ad-a543-d200-89c34b0740ba.htm" />
+  <HelpKINode Title="ClientTests.ConnectToServer_ServerIsUp_ClientConnectsToServerAsync method" Url="html/3802bb2e-c5a1-6f52-e579-c25bc525ba97.htm" />
+  <HelpKINode Title="ClientTests.Disconnect_ServerIsDown_ClientImmediatelyClosesConnectionWhichIsInConnectingState method" Url="html/90283e77-e7ab-f5cc-402e-3e6662ccfcaa.htm" />
+  <HelpKINode Title="ClientTests.Disconnect_ServerIsUp_ClientProperlyClosesConnection method" Url="html/2c3875ea-c495-0170-0c71-0634787d8844.htm" />
+  <HelpKINode Title="CloseServer method" Url="html/52c49497-9257-8d06-b69f-affdb6101a2b.htm" />
+  <HelpKINode Title="CollectBet method">
+    <HelpKINode Title="Bettor.CollectBet Method " Url="html/6b28c125-39e8-82f1-91c3-4c9b92303647.htm" />
+    <HelpKINode Title="Parlor.CollectBet Method " Url="html/3f2cbd08-5b14-0af3-dfe3-66d72c440631.htm" />
+    <HelpKINode Title="User.CollectBet Method " Url="html/984fe381-0bb9-de1e-4369-c03db0c94ef4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CollectClientBets method" Url="html/f5734e4c-2b86-caa3-1da2-1b9d8eb230ae.htm" />
+  <HelpKINode Title="CollectClientBetsAfterRaceEnd method" Url="html/c823412a-8780-4266-c5e9-ceed74cdb9e6.htm" />
+  <HelpKINode Title="Configuration method" Url="html/708f04d4-5cdf-2ec6-8d09-0430745f1b60.htm" />
+  <HelpKINode Title="connectedClients field" Url="html/7700810c-04a5-7f65-9f2e-86fcc88de407.htm" />
+  <HelpKINode Title="connectedClientsGroup field" Url="html/2a1838a7-8fd8-df02-62e2-3e9b795e1217.htm" />
+  <HelpKINode Title="Connection property" Url="html/72dd0e39-daa6-c2fb-15cf-6d3131838c37.htm" />
+  <HelpKINode Title="connectionId field" Url="html/4a0f9355-0c99-50d2-73c5-06c8b9952dd7.htm" />
+  <HelpKINode Title="ConnectToServer method" Url="html/8132fb7b-30f1-08e4-91c6-b825d2f50e10.htm" />
+  <HelpKINode Title="ConnectToServer_ServerIsDown_ClientCanNotConnectToServer method" Url="html/ff724d09-31ad-a543-d200-89c34b0740ba.htm" />
+  <HelpKINode Title="ConnectToServer_ServerIsUp_ClientConnectsToServerAsync method" Url="html/3802bb2e-c5a1-6f52-e579-c25bc525ba97.htm" />
+  <HelpKINode Title="CreateBet method" Url="html/ead990b8-b2fc-763a-1706-936760fb424d.htm" />
+  <HelpKINode Title="CreateUserinDatabase method" Url="html/aae1889e-d4cc-56ae-3280-30e6cd00923f.htm" />
+  <HelpKINode Title="CurrentBets property" Url="html/58970ce0-08ec-3242-10d8-ea459c114b90.htm" />
+  <HelpKINode Title="currentClient field" Url="html/9f2f8a8f-1809-6c97-b063-3ef418d0340a.htm" />
+  <HelpKINode Title="DataClassesBettingParlorDataContext class">
+    <HelpKINode Title="DataClassesBettingParlorDataContext Class" Url="html/5e525497-53b7-2ae3-2ebe-a3411b5300ba.htm" />
+    <HelpKINode Title="constructor" Url="html/cf9512fe-54a8-182f-a476-f5751fcfa72c.htm" />
+    <HelpKINode Title="fields" Url="html/25abd868-3503-e680-eb02-7f4f0569b185.htm" />
+    <HelpKINode Title="methods" Url="html/e3a77b15-5ef2-9d9d-4baf-dd5d62905d0d.htm" />
+    <HelpKINode Title="properties" Url="html/043d0bfb-c68e-67ad-4fc1-02a0079f94d3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DataClassesBettingParlorDataContext.CurrentBets property" Url="html/58970ce0-08ec-3242-10d8-ea459c114b90.htm" />
+  <HelpKINode Title="DataClassesBettingParlorDataContext.DataClassesBettingParlorDataContext constructor" Url="html/cf9512fe-54a8-182f-a476-f5751fcfa72c.htm" />
+  <HelpKINode Title="DataClassesBettingParlorDataContext.mappingSource field" Url="html/ed79b14a-518c-cb3c-3b8d-7209b060529f.htm" />
+  <HelpKINode Title="DataClassesBettingParlorDataContext.Players property" Url="html/3ce55063-ba53-38b6-dc73-b4e9d4747a49.htm" />
+  <HelpKINode Title="DeleteUserFromDatabase method" Url="html/13bec527-3027-fd72-622a-1bc5c6481654.htm" />
+  <HelpKINode Title="DisableControlsOnRaceEnd method" Url="html/98ea0228-33af-6bab-da7b-8939decaaedc.htm" />
+  <HelpKINode Title="DisableHandicapPanel method" Url="html/ffae9652-4223-ce37-f1da-697a4a9bec82.htm" />
+  <HelpKINode Title="DisableSignOutOptionAfterPlacingStandardBet method" Url="html/7e6539a2-9795-8875-2162-b6a01d3911a4.htm" />
+  <HelpKINode Title="Disconnect method" Url="html/ee9aa269-e56d-7b63-29a2-8ff1b6c89b79.htm" />
+  <HelpKINode Title="Disconnect_ServerIsDown_ClientImmediatelyClosesConnectionWhichIsInConnectingState method" Url="html/90283e77-e7ab-f5cc-402e-3e6662ccfcaa.htm" />
+  <HelpKINode Title="Disconnect_ServerIsUp_ClientProperlyClosesConnection method" Url="html/2c3875ea-c495-0170-0c71-0634787d8844.htm" />
+  <HelpKINode Title="Dog class">
+    <HelpKINode Title="Dog Class" Url="html/12d8c6b1-ed07-3b8a-dd62-91ea3f909521.htm" />
+    <HelpKINode Title="fields" Url="html/ea974e4a-f777-0c0c-8a5f-f88b753126e7.htm" />
+    <HelpKINode Title="methods" Url="html/e6e78a51-c13d-eec3-2c19-f8065ebe412f.htm" />
+    <HelpKINode Title="properties" Url="html/75dda91b-1c2a-c134-e643-fa8f3f477954.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Dog.GetLocation property" Url="html/f3f3b6e1-39e7-7c1a-70e0-20cceebd0476.htm" />
+  <HelpKINode Title="Dog.location field" Url="html/6abfb85c-6bc8-8fac-7982-2e2484903212.htm" />
+  <HelpKINode Title="Dog.myPictureBox field" Url="html/29531b23-2356-3d34-f88f-dc12d243c79b.htm" />
+  <HelpKINode Title="Dog.raceTrackLength field" Url="html/ae7c7007-4556-fe92-6ece-628ab6b76a7d.htm" />
+  <HelpKINode Title="Dog.randomizer field" Url="html/0bcba6f6-814d-ffb0-4fed-6d97dde19061.htm" />
+  <HelpKINode Title="Dog.TakeStartingPosition method" Url="html/578e1ed7-ad3f-8b83-bcfb-975c5a33d292.htm" />
+  <HelpKINode Title="DogArray field">
+    <HelpKINode Title="FormClient.DogArray Field" Url="html/764bd39b-674b-987f-777d-61070bbe9605.htm" />
+    <HelpKINode Title="FormServer.DogArray Field" Url="html/fc9158fa-9715-e198-fa8e-12ed7ed9e612.htm" />
+  </HelpKINode>
+  <HelpKINode Title="dogToWin field" Url="html/75d5ceaa-589d-39a2-145d-e799cc436be3.htm" />
+  <HelpKINode Title="dummyBet enumeration member" Url="html/b5d6bd05-7382-edb6-5186-0b748e871cbe.htm" />
+  <HelpKINode Title="EnableControlsOnRaceStart method">
+    <HelpKINode Title="FormClient.EnableControlsOnRaceStart Method " Url="html/eb8fb948-b43c-fd07-3d3f-05f91fe3cd52.htm" />
+    <HelpKINode Title="FormServer.EnableControlsOnRaceStart Method " Url="html/e02ba285-4b45-3899-9bf0-f9f6f0ce5554.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EndRaceOnClientForm method" Url="html/91295dab-30f7-67e4-0661-96ee2e0b6bad.htm" />
+  <HelpKINode Title="FormAddCash class">
+    <HelpKINode Title="FormAddCash Class" Url="html/b4f23b71-af84-1973-b36f-bfe545020e88.htm" />
+    <HelpKINode Title="constructor" Url="html/4db42c46-187c-c0dd-5ae1-e7d774efd2d4.htm" />
+    <HelpKINode Title="methods" Url="html/6fb055f1-4aec-e9e1-3661-e114d4d0d656.htm" />
+    <HelpKINode Title="properties" Url="html/17319396-7ad0-ec1b-ab9e-d4d186bdc54e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FormAddCash.ButtonAdd_Click method" Url="html/b9c15aaf-f01d-82b2-9017-980d8d3036c3.htm" />
+  <HelpKINode Title="FormAddCash.ButtonCancel_Click method" Url="html/68d6bd2f-cf80-2f2d-4a28-365474ffbb76.htm" />
+  <HelpKINode Title="FormAddCash.FormAddCash constructor" Url="html/4db42c46-187c-c0dd-5ae1-e7d774efd2d4.htm" />
+  <HelpKINode Title="FormAddCash.NumericUpDown property" Url="html/79d6f9a3-d00b-01de-cc80-d542029947fb.htm" />
+  <HelpKINode Title="FormClient class">
+    <HelpKINode Title="FormClient Class" Url="html/357215ad-9197-43f2-67e7-91e77c039377.htm" />
+    <HelpKINode Title="constructor" Url="html/0716351f-d868-a3b3-ef7c-fe448c916b79.htm" />
+    <HelpKINode Title="fields" Url="html/5e58cdc8-6a2b-aa7a-b6e5-095f1cb38f66.htm" />
+    <HelpKINode Title="methods" Url="html/8f83998e-d657-69a6-e4b8-109062925fad.htm" />
+    <HelpKINode Title="properties" Url="html/60771876-015c-46d2-7990-d76aca25e7d1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FormClient property" Url="html/3ebc8f24-1752-80b6-37f4-0ff7fe198a3e.htm" />
+  <HelpKINode Title="FormClient.ButtonAddCash_Click method" Url="html/8925d0d6-8d4d-88a4-e85f-8a9748756d5a.htm" />
+  <HelpKINode Title="FormClient.ButtonHandicap_Click method" Url="html/f8353a42-d1cf-fc28-81e2-778be08d127e.htm" />
+  <HelpKINode Title="FormClient.ButtonPlaceBet_Click method" Url="html/fdf46a6c-5410-6996-8347-9a427ffe6ca3.htm" />
+  <HelpKINode Title="FormClient.ButtonSend_Click method" Url="html/4aa98880-112a-a9b3-7231-6daf522e5be8.htm" />
+  <HelpKINode Title="FormClient.ButtonSignOut_Click method" Url="html/7a850d19-1eb5-f4fb-5f56-339d951d52b6.htm" />
+  <HelpKINode Title="FormClient.currentClient field" Url="html/9f2f8a8f-1809-6c97-b063-3ef418d0340a.htm" />
+  <HelpKINode Title="FormClient.DisableHandicapPanel method" Url="html/ffae9652-4223-ce37-f1da-697a4a9bec82.htm" />
+  <HelpKINode Title="FormClient.DisableSignOutOptionAfterPlacingStandardBet method" Url="html/7e6539a2-9795-8875-2162-b6a01d3911a4.htm" />
+  <HelpKINode Title="FormClient.DogArray field" Url="html/764bd39b-674b-987f-777d-61070bbe9605.htm" />
+  <HelpKINode Title="FormClient.EnableControlsOnRaceStart method" Url="html/eb8fb948-b43c-fd07-3d3f-05f91fe3cd52.htm" />
+  <HelpKINode Title="FormClient.FormClient constructor" Url="html/0716351f-d868-a3b3-ef7c-fe448c916b79.htm" />
+  <HelpKINode Title="FormClient.FormClient_Load method" Url="html/474e4eb1-6913-762e-4cd7-333c1354677d.htm" />
+  <HelpKINode Title="FormClient.GetRichTextBoxConsole property" Url="html/1712f549-1925-d05a-9734-88fd38b24cda.htm" />
+  <HelpKINode Title="FormClient.HandleControlsAfterRaceHasFinished method" Url="html/dfc022b2-a733-bce0-fc2e-2e88d8aabbe1.htm" />
+  <HelpKINode Title="FormClient.InitializeDogs method" Url="html/c9e39328-0bcd-cce7-ce22-d6c7951ea478.htm" />
+  <HelpKINode Title="FormClient.MoveDogsOnClientForm method" Url="html/787ab07d-3e4f-0668-4dda-2806fd86cbc1.htm" />
+  <HelpKINode Title="FormClient.RefToFormLogin property" Url="html/0cb4a90f-eeab-077b-d60f-14a2c41e454e.htm" />
+  <HelpKINode Title="FormClient.ShowResultBet method" Url="html/b0ea3837-6620-17e7-e59c-19b1cffb3002.htm" />
+  <HelpKINode Title="FormClient.UpdateCurrentAccountBalanceLabel method" Url="html/286b1d05-aa30-7d91-818c-028ef1cdedc4.htm" />
+  <HelpKINode Title="FormClient.UpdateDataGriedView method" Url="html/e4e42738-eb75-04e2-fc14-a058bb76c526.htm" />
+  <HelpKINode Title="FormClient_Load method" Url="html/474e4eb1-6913-762e-4cd7-333c1354677d.htm" />
+  <HelpKINode Title="FormLogin class">
+    <HelpKINode Title="FormLogin Class" Url="html/9313be7e-e230-9d9e-c49b-d53138e7a621.htm" />
+    <HelpKINode Title="constructor" Url="html/7be55659-ab09-b429-ec8d-3ebbf21a6a4e.htm" />
+    <HelpKINode Title="fields" Url="html/d9ccad64-bd31-498a-75b9-0dd2babed9c3.htm" />
+    <HelpKINode Title="methods" Url="html/d1304038-ac79-3769-d2d3-13b680f9a456.htm" />
+    <HelpKINode Title="properties" Url="html/5ab541f1-9148-ebe0-21ff-3fab7de86610.htm" />
+  </HelpKINode>
+  <HelpKINode Title="formLogin field" Url="html/49f1f654-4522-2944-43a4-450f68acfedf.htm" />
+  <HelpKINode Title="FormLogin.ButtonBackToMainMenu_Click method" Url="html/60c0f626-d134-ab6f-69ba-f90b98649180.htm" />
+  <HelpKINode Title="FormLogin.ButtonExitTheApplication_Click method" Url="html/9bfb2118-5585-028a-def8-55bc94b331e9.htm" />
+  <HelpKINode Title="FormLogin.ButtonLogin_Click method" Url="html/31fe111a-b061-d888-4759-f2a79ac308f2.htm" />
+  <HelpKINode Title="FormLogin.ButtonRegister_Click method" Url="html/38773828-94a1-2645-f0de-6717a2e01cf2.htm" />
+  <HelpKINode Title="FormLogin.CheckIfTextBoxesAreEmpty method" Url="html/515a041a-89c5-874a-75b0-25259ef3cf96.htm" />
+  <HelpKINode Title="FormLogin.ClearControls method" Url="html/9f6e154e-f1fc-e9c1-fdc8-48acfa172f51.htm" />
+  <HelpKINode Title="FormLogin.FormLogin constructor" Url="html/7be55659-ab09-b429-ec8d-3ebbf21a6a4e.htm" />
+  <HelpKINode Title="FormLogin.login field" Url="html/4f6a47ed-428d-6095-f071-ab0956726167.htm" />
+  <HelpKINode Title="FormLogin.RefToFormMain property" Url="html/05cbe016-0ead-b96d-c19a-a83ef435845e.htm" />
+  <HelpKINode Title="FormLogin.Result enumeration" Url="html/85bc0018-105d-2f37-a0ab-1ada186a1a74.htm" />
+  <HelpKINode Title="FormLogin.ShowResult method" Url="html/3a431780-5a26-aac5-e560-58f52c266fef.htm" />
+  <HelpKINode Title="FormLogin.StartGameWindowClient method" Url="html/ae88eac4-8e8a-14d2-2360-c123cb7d8b47.htm" />
+  <HelpKINode Title="FormLogin.StartGameWindowServer method" Url="html/bddb9b43-2023-ea72-0bf7-9b037e03db80.htm" />
+  <HelpKINode Title="FormMenu class">
+    <HelpKINode Title="FormMenu Class" Url="html/a815a1dd-2228-e2eb-23e3-98878b8f67d0.htm" />
+    <HelpKINode Title="constructor" Url="html/8edc9efa-0787-e34a-845c-c91e28fa0bfa.htm" />
+    <HelpKINode Title="methods" Url="html/e7025072-1a42-4d4c-38bf-0472ae402957.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FormMenu.buttonExit_Click method" Url="html/2ba4975e-33e7-4fba-52e4-19887e375a79.htm" />
+  <HelpKINode Title="FormMenu.buttonGameStart_Click method" Url="html/d31bafb0-1876-5ad4-bf54-6147199e5b79.htm" />
+  <HelpKINode Title="FormMenu.buttonRules_Click method" Url="html/8851591e-e53f-ee63-21d9-f4106cbf1feb.htm" />
+  <HelpKINode Title="FormMenu.FormMenu constructor" Url="html/8edc9efa-0787-e34a-845c-c91e28fa0bfa.htm" />
+  <HelpKINode Title="FormPlaceBet class">
+    <HelpKINode Title="FormPlaceBet Class" Url="html/9834da95-5564-58d3-277c-8fae7f59bb44.htm" />
+    <HelpKINode Title="constructor" Url="html/80173d3c-6891-f9b4-9f51-efa7a696bd2a.htm" />
+    <HelpKINode Title="methods" Url="html/16190ba2-9c03-ae52-c42b-99b81ba61431.htm" />
+    <HelpKINode Title="properties" Url="html/dc3c1c1c-8171-c18c-4fc9-851be692802f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FormPlaceBet.buttonPlaceBet_Click method" Url="html/e2688a44-3d6b-654d-8e48-726c8948448e.htm" />
+  <HelpKINode Title="FormPlaceBet.FormPlaceBet constructor" Url="html/80173d3c-6891-f9b4-9f51-efa7a696bd2a.htm" />
+  <HelpKINode Title="FormPlaceBet.NumericUpDownBetValue property" Url="html/0a46b56b-8c1a-bda5-e1fd-36c506711e63.htm" />
+  <HelpKINode Title="FormPlaceBet.NumericUpDownDogNumber property" Url="html/fc5c03d3-c0bf-5322-4d63-72b485050704.htm" />
+  <HelpKINode Title="FormPlaceBet.ShowResultMessageBet method" Url="html/90243deb-097f-5b95-f851-cb875e1e0186.htm" />
+  <HelpKINode Title="FormRules class">
+    <HelpKINode Title="FormRules Class" Url="html/e7e13940-52aa-77e7-7763-2b5b23481594.htm" />
+    <HelpKINode Title="constructor" Url="html/ef9180e4-8df8-b75a-30c2-14ab21d16e20.htm" />
+    <HelpKINode Title="methods" Url="html/b77c4bd6-dd43-728b-fd3b-a9e0631f4052.htm" />
+    <HelpKINode Title="properties" Url="html/05002beb-a9de-55c6-b1a7-2c5f919edc9b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FormRules.FormRules constructor" Url="html/ef9180e4-8df8-b75a-30c2-14ab21d16e20.htm" />
+  <HelpKINode Title="FormRules.FormRules_FormClosed method" Url="html/5d5333c8-4e76-64d8-dd1f-6ea8785149e1.htm" />
+  <HelpKINode Title="FormRules.RefToFormMain property" Url="html/5ba31a7e-589c-74eb-be00-5954568c3943.htm" />
+  <HelpKINode Title="FormRules_FormClosed method" Url="html/5d5333c8-4e76-64d8-dd1f-6ea8785149e1.htm" />
+  <HelpKINode Title="FormServer class">
+    <HelpKINode Title="FormServer Class" Url="html/cd417083-16e7-87a8-256f-786a49409893.htm" />
+    <HelpKINode Title="constructor" Url="html/25c6c63e-a22c-0410-1495-a133e665d57d.htm" />
+    <HelpKINode Title="fields" Url="html/bfc0d8ac-1110-abf9-aec2-089bb2986fea.htm" />
+    <HelpKINode Title="methods" Url="html/aed7c0d3-8420-0d36-6fc1-b0d39f4f3452.htm" />
+    <HelpKINode Title="properties" Url="html/80dc8d11-19e9-eea2-e88c-eb7e71c85d06.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FormServer property" Url="html/7160d89c-a23a-4364-c93b-dba57b822413.htm" />
+  <HelpKINode Title="FormServer.administrator field" Url="html/126b6d8e-77ae-1de8-90cd-2455312daec8.htm" />
+  <HelpKINode Title="FormServer.ButtonAddCash_Click method" Url="html/ff6568d9-c2c5-9f77-e887-696abb3c9bb2.htm" />
+  <HelpKINode Title="FormServer.ButtonHandicap_Click method" Url="html/61ef8275-a920-b8c2-d641-f95edcb12367.htm" />
+  <HelpKINode Title="FormServer.ButtonPlaceBet_Click method" Url="html/5f94d1c0-f0f3-39a9-86bb-9875531dd801.htm" />
+  <HelpKINode Title="FormServer.ButtonSignOut_Click method" Url="html/765aee82-7e3f-007e-d642-7d4257a5c454.htm" />
+  <HelpKINode Title="FormServer.ButtonStartRace_Click method" Url="html/aa682d27-327c-60af-5d62-6703b8c5b3ed.htm" />
+  <HelpKINode Title="FormServer.CheckIfRaceIsOn method" Url="html/518bc7e9-95df-dbf4-80f0-0d036a4425c5.htm" />
+  <HelpKINode Title="FormServer.DisableControlsOnRaceEnd method" Url="html/98ea0228-33af-6bab-da7b-8939decaaedc.htm" />
+  <HelpKINode Title="FormServer.DogArray field" Url="html/fc9158fa-9715-e198-fa8e-12ed7ed9e612.htm" />
+  <HelpKINode Title="FormServer.EnableControlsOnRaceStart method" Url="html/e02ba285-4b45-3899-9bf0-f9f6f0ce5554.htm" />
+  <HelpKINode Title="FormServer.FormServer constructor" Url="html/25c6c63e-a22c-0410-1495-a133e665d57d.htm" />
+  <HelpKINode Title="FormServer.FormServer_Load method" Url="html/1ac91536-db82-2a96-bceb-11051e00f2c9.htm" />
+  <HelpKINode Title="FormServer.GetRichTextBoxConsole property" Url="html/d59ec6f5-658c-f7b6-51f6-934e689c8c1d.htm" />
+  <HelpKINode Title="FormServer.InitializeDogs method" Url="html/4d492fc1-b915-a30a-7fe7-ce82f9f7ff31.htm" />
+  <HelpKINode Title="FormServer.RefToFormLogin property" Url="html/32ec0be0-c599-1366-cce6-0fcca2e7f31e.htm" />
+  <HelpKINode Title="FormServer.server field" Url="html/baad939c-6484-05bd-78f3-52d51dbfe612.htm" />
+  <HelpKINode Title="FormServer.TimerRaceTime_Tick method" Url="html/7898c16c-b558-87d3-f32a-886e8ad2656d.htm" />
+  <HelpKINode Title="FormServer.UpdateCurrentAccountBalanceLabel method" Url="html/e4d48d7d-7449-5f90-3cb1-c20416303949.htm" />
+  <HelpKINode Title="FormServer.UpdateDataGriedView method" Url="html/a7d859c0-5279-b83e-392a-822a179ef00f.htm" />
+  <HelpKINode Title="FormServer_Load method" Url="html/1ac91536-db82-2a96-bceb-11051e00f2c9.htm" />
+  <HelpKINode Title="GenerateRandomString method" Url="html/a2ff08f3-301c-190a-adea-4de46d26a5b1.htm" />
+  <HelpKINode Title="GetAdminAccountBalance method" Url="html/4fe6c15b-91c7-0393-9856-bcdcc4d31988.htm" />
+  <HelpKINode Title="GetAdminName property" Url="html/dde728ee-9d27-c269-af89-d24edfbd7ea8.htm" />
+  <HelpKINode Title="GetAmount property" Url="html/026ba4bc-3d5c-15e7-36e6-faf7d802e3d7.htm" />
+  <HelpKINode Title="GetCurrentClientAccountBalance method" Url="html/7643cce3-14ed-4e43-170d-a58b78b01b21.htm" />
+  <HelpKINode Title="GetCurrentClientRow method" Url="html/eefe9b60-985c-fc08-853f-cde0459b0946.htm" />
+  <HelpKINode Title="GetLocation property" Url="html/f3f3b6e1-39e7-7c1a-70e0-20cceebd0476.htm" />
+  <HelpKINode Title="GetRealUpdatedRows method" Url="html/df7d560f-9a9f-e5b2-3e6f-39a0fc493537.htm" />
+  <HelpKINode Title="GetRichTextBoxConsole property">
+    <HelpKINode Title="FormClient.GetRichTextBoxConsole Property " Url="html/1712f549-1925-d05a-9734-88fd38b24cda.htm" />
+    <HelpKINode Title="FormServer.GetRichTextBoxConsole Property " Url="html/d59ec6f5-658c-f7b6-51f6-934e689c8c1d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetServerUrl property" Url="html/39c8602b-39eb-3f18-c495-76dbe44be025.htm" />
+  <HelpKINode Title="GreyHound class">
+    <HelpKINode Title="GreyHound Class" Url="html/de899452-47ee-3102-253b-8454b3f76937.htm" />
+    <HelpKINode Title="constructor" Url="html/980833fc-1857-aeda-8722-db8f6da1ceab.htm" />
+    <HelpKINode Title="fields" Url="html/14a3039f-c99a-f768-d0e6-188595cd5cc3.htm" />
+    <HelpKINode Title="methods" Url="html/e2b1acd3-547d-0d82-3ca8-fd60a8af2cea.htm" />
+    <HelpKINode Title="properties" Url="html/67f69c56-e139-8da6-89f4-60360a424e08.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GreyHound.GreyHound constructor" Url="html/980833fc-1857-aeda-8722-db8f6da1ceab.htm" />
+  <HelpKINode Title="GreyHound.Run method" Url="html/400871aa-762e-f618-90d9-e762ecc97163.htm" />
+  <HelpKINode Title="GreyHound.RunOnClientForm method" Url="html/62de901f-ccc6-c64f-66ce-0609b07bc2fd.htm" />
+  <HelpKINode Title="GreyHound.TakeStartingPosition method" Url="html/af231d6a-96d5-144a-338a-74def7fe991e.htm" />
+  <HelpKINode Title="handicapBet enumeration member" Url="html/b5d6bd05-7382-edb6-5186-0b748e871cbe.htm" />
+  <HelpKINode Title="HandleControlsAfterRaceHasFinished method" Url="html/dfc022b2-a733-bce0-fc2e-2e88d8aabbe1.htm" />
+  <HelpKINode Title="hubContext field" Url="html/81d2bd02-e52a-f62c-0471-6515be51ccdb.htm" />
+  <HelpKINode Title="HubProxy property" Url="html/6254d084-3e1e-33b8-5cab-bd4a47947619.htm" />
+  <HelpKINode Title="IBetSort interface">
+    <HelpKINode Title="IBetSort Interface" Url="html/0768eb4d-fa28-b658-871d-918231c454ff.htm" />
+    <HelpKINode Title="methods" Url="html/c9a1c009-64c7-6cbc-a525-300fbad55d27.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IBetSort.PayOutTheAmountWon method" Url="html/d486d5c8-cf60-2839-a90a-bcbeb8159c06.htm" />
+  <HelpKINode Title="InitializeDogs method">
+    <HelpKINode Title="FormClient.InitializeDogs Method " Url="html/c9e39328-0bcd-cce7-ce22-d6c7951ea478.htm" />
+    <HelpKINode Title="FormServer.InitializeDogs Method " Url="html/4d492fc1-b915-a30a-7fe7-ce82f9f7ff31.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InsertUpdateDelete enumeration member" Url="html/0c4c20fc-6652-e101-862b-b94e184e26e0.htm" />
+  <HelpKINode Title="JoinGroup method" Url="html/dee0d923-b7ba-74d1-3040-6eefa69f90ad.htm" />
+  <HelpKINode Title="LeaveGroup method" Url="html/93a297d0-62dd-842e-9d10-7b7cc8338ec2.htm" />
+  <HelpKINode Title="LoadUserData class">
+    <HelpKINode Title="LoadUserData Class" Url="html/6c634385-03ac-3bbb-f4af-1b6f84791e15.htm" />
+    <HelpKINode Title="constructor" Url="html/ffe53937-595e-fcfa-7a65-ea1cb4d21ee7.htm" />
+    <HelpKINode Title="methods" Url="html/b5480e48-73f7-4856-ef59-f18d969edd93.htm" />
+  </HelpKINode>
+  <HelpKINode Title="loadUserData field" Url="html/77b51d4e-cbf0-a123-6217-a12f8f96f0c4.htm" />
+  <HelpKINode Title="LoadUserData.AddClientToList method" Url="html/0a29b37a-68a1-1600-5ad6-1b2dccd831e3.htm" />
+  <HelpKINode Title="LoadUserData.LoadUserData constructor" Url="html/ffe53937-595e-fcfa-7a65-ea1cb4d21ee7.htm" />
+  <HelpKINode Title="LoadUserData.RemoveClientFromList method" Url="html/edd540d6-bf29-73cc-0f25-6e4e624c8df7.htm" />
+  <HelpKINode Title="LoadUserDataTests class">
+    <HelpKINode Title="LoadUserDataTests Class" Url="html/fff9ca91-3cb8-2e85-0210-fd1fa5bdeca2.htm" />
+    <HelpKINode Title="constructor" Url="html/a9ec13c9-5930-647e-8667-3f72d6674646.htm" />
+    <HelpKINode Title="fields" Url="html/5837258b-0825-4327-3502-0a7854e89244.htm" />
+    <HelpKINode Title="methods" Url="html/ef3a2c97-1c09-9ab7-0b44-7a53c9cff09d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoadUserDataTests.AddClientToList_ClientDictionaryIsEmptyOrClientIsNotInDictionary_CLientIsAddedToDictionaryReturnTrue method" Url="html/2281cdb3-97ac-4849-449e-842286fa3841.htm" />
+  <HelpKINode Title="LoadUserDataTests.AddCLientToList_ClientIsAlreadyInDictionary_ClientIsNotAddedReturnFalse method" Url="html/6d7e1517-1044-7ef0-0148-3c30bf5a9375.htm" />
+  <HelpKINode Title="LoadUserDataTests.LoadUserDataTests constructor" Url="html/a9ec13c9-5930-647e-8667-3f72d6674646.htm" />
+  <HelpKINode Title="location field" Url="html/6abfb85c-6bc8-8fac-7982-2e2484903212.htm" />
+  <HelpKINode Title="Login class">
+    <HelpKINode Title="Login Class" Url="html/422e0d1c-8178-0940-a923-a67498de2b4e.htm" />
+    <HelpKINode Title="constructor" Url="html/ca9300f2-a8ea-7bc9-d58d-1701cb532e7c.htm" />
+    <HelpKINode Title="fields" Url="html/0010bf8e-af31-84e0-59ae-3965de234fb5.htm" />
+    <HelpKINode Title="methods" Url="html/e0c65f8c-a1ad-78d5-8191-87febbbbd05b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="login field" Url="html/4f6a47ed-428d-6095-f071-ab0956726167.htm" />
+  <HelpKINode Title="Login.Login constructor" Url="html/ca9300f2-a8ea-7bc9-d58d-1701cb532e7c.htm" />
+  <HelpKINode Title="Login.LogInToExistingAccount method" Url="html/2c77b3dc-3c96-456b-6ab6-6057209ff77a.htm" />
+  <HelpKINode Title="Login.RegisterNewPlayer method" Url="html/540e08f5-f18d-1074-28e1-8bd35a382631.htm" />
+  <HelpKINode Title="Login.result field" Url="html/5fb41435-3643-aee9-19d7-abe598afa214.htm" />
+  <HelpKINode Title="LoginTests class">
+    <HelpKINode Title="LoginTests Class" Url="html/43d6c2d8-a00f-a354-09a4-bb968caae50f.htm" />
+    <HelpKINode Title="constructor" Url="html/96ab98f1-7752-0e77-b5bf-c2706be5c1db.htm" />
+    <HelpKINode Title="fields" Url="html/09f3336e-1728-68f7-9ff5-1da8ee3a5147.htm" />
+    <HelpKINode Title="methods" Url="html/d179ab30-5270-2fdb-9106-64acbb0983fc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoginTests.LoginTests constructor" Url="html/96ab98f1-7752-0e77-b5bf-c2706be5c1db.htm" />
+  <HelpKINode Title="LoginTests.LogInToExistingAccount_ThereIsAUserWithSpecifiedNameInDatabase_LoginIsSuccessfull method" Url="html/1d3c8ef0-db00-19cf-e99f-183841a67ac6.htm" />
+  <HelpKINode Title="LoginTests.LogInToExistingAccount_UserWithSpecifiedNameIsNotRegistered_LoginFails method" Url="html/bf391182-cedb-55c3-671a-2db53a031039.htm" />
+  <HelpKINode Title="LoginTests.RegisterNewPlayer_ThereIsAUserWithSpecifiedNameInDatabase_RegistrationIsRefused method" Url="html/5bd6ac37-2461-8540-6dcb-b054d63261a7.htm" />
+  <HelpKINode Title="LoginTests.RegisterNewPlayer_ThereIsNoUserWithSpecifiedNameInDatabase_NewAccountIsCreatedInDatabase method" Url="html/1891f0fd-a603-2360-8ba1-4503152dfdba.htm" />
+  <HelpKINode Title="LoginToDataBaseFailed enumeration member" Url="html/85bc0018-105d-2f37-a0ab-1ada186a1a74.htm" />
+  <HelpKINode Title="LoginToDataBaseSuccessful enumeration member" Url="html/85bc0018-105d-2f37-a0ab-1ada186a1a74.htm" />
+  <HelpKINode Title="LogInToExistingAccount method" Url="html/2c77b3dc-3c96-456b-6ab6-6057209ff77a.htm" />
+  <HelpKINode Title="LogInToExistingAccount_ThereIsAUserWithSpecifiedNameInDatabase_LoginIsSuccessfull method" Url="html/1d3c8ef0-db00-19cf-e99f-183841a67ac6.htm" />
+  <HelpKINode Title="LogInToExistingAccount_UserWithSpecifiedNameIsNotRegistered_LoginFails method" Url="html/bf391182-cedb-55c3-671a-2db53a031039.htm" />
+  <HelpKINode Title="Main method" Url="html/3a55b213-652b-5ae5-cca3-0c4cdcbd6b74.htm" />
+  <HelpKINode Title="ManageUserData class">
+    <HelpKINode Title="ManageUserData Class" Url="html/36cb2ff2-1714-391d-442d-843371e4b80b.htm" />
+    <HelpKINode Title="constructor" Url="html/acf4252c-ce7f-2d5d-eb6a-009f173a76e9.htm" />
+    <HelpKINode Title="methods" Url="html/f0f92568-993a-2545-cae5-354af137918f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="manageUserData field" Url="html/0b6737b2-d688-8aeb-e51c-4c6752e7df75.htm" />
+  <HelpKINode Title="ManageUserData.AddCashToAdminAccount method" Url="html/77b9ce09-cf1c-2a4c-5e30-869850e0496d.htm" />
+  <HelpKINode Title="ManageUserData.AddCashToClientAccount method" Url="html/2d2a3418-5912-fc65-9749-6c530d18488b.htm" />
+  <HelpKINode Title="ManageUserData.CollectClientBets method" Url="html/f5734e4c-2b86-caa3-1da2-1b9d8eb230ae.htm" />
+  <HelpKINode Title="ManageUserData.ManageUserData constructor" Url="html/acf4252c-ce7f-2d5d-eb6a-009f173a76e9.htm" />
+  <HelpKINode Title="ManageUserData.PlaceAdminBet method" Url="html/22a600e1-20c0-bb41-2b42-5138cf9101ac.htm" />
+  <HelpKINode Title="ManageUserData.PlaceClientBet method" Url="html/e33c68c4-552b-4473-d910-73d8fbbff812.htm" />
+  <HelpKINode Title="ManageUserData.SendCashToDatabase method" Url="html/78eee99a-e8c1-f206-ebd1-c468469397a2.htm" />
+  <HelpKINode Title="ManageUserDataTests class">
+    <HelpKINode Title="ManageUserDataTests Class" Url="html/25d1aae6-a493-63ce-a466-68e797ab5acd.htm" />
+    <HelpKINode Title="constructor" Url="html/98b24975-ecc2-7009-41cb-6023a0bade1b.htm" />
+    <HelpKINode Title="fields" Url="html/c0723615-ffe4-f56d-2735-8e4132a31c7e.htm" />
+    <HelpKINode Title="methods" Url="html/47f07d6e-f010-bb03-3ba2-5499a4e41ad1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ManageUserDataTests.AddCashToClientAccount_ClientTransfersCertainAmountOfCash_HisAccountBalanceIsUpdated method" Url="html/bf0ae038-abd2-c7c1-cb57-2d9c71e34837.htm" />
+  <HelpKINode Title="ManageUserDataTests.ManageUserDataTests constructor" Url="html/98b24975-ecc2-7009-41cb-6023a0bade1b.htm" />
+  <HelpKINode Title="ManageUserDataTests.PlaceClientBet_UserCanNotPlaceCertainBet_BetIsNotPlacedReturnFalse method" Url="html/cd8dad50-e9cb-b839-39df-76c299362656.htm" />
+  <HelpKINode Title="ManageUserDataTests.PlaceClientBet_UserIsAbleToPlaceCertainBet_BetIsPlacedReturnTrue method" Url="html/245bf3f6-4c2d-6043-19d0-97e37a21c5a7.htm" />
+  <HelpKINode Title="mappingSource field" Url="html/ed79b14a-518c-cb3c-3b8d-7209b060529f.htm" />
+  <HelpKINode Title="MoveDogsOnClientForm method" Url="html/787ab07d-3e4f-0668-4dda-2806fd86cbc1.htm" />
+  <HelpKINode Title="myPictureBox field" Url="html/29531b23-2356-3d34-f88f-dc12d243c79b.htm" />
+  <HelpKINode Title="name field" Url="html/6c6e5625-d3ca-d52f-539d-a75be80d29bb.htm" />
+  <HelpKINode Title="Name property" Url="html/601aec6a-2f9f-9703-125f-8b601bb75c5f.htm" />
+  <HelpKINode Title="NumericUpDown property" Url="html/79d6f9a3-d00b-01de-cc80-d542029947fb.htm" />
+  <HelpKINode Title="NumericUpDownBetValue property" Url="html/0a46b56b-8c1a-bda5-e1fd-36c506711e63.htm" />
+  <HelpKINode Title="NumericUpDownDogNumber property" Url="html/fc5c03d3-c0bf-5322-4d63-72b485050704.htm" />
+  <HelpKINode Title="OnConnected method" Url="html/12e21390-d5e6-55a6-0ba6-20b7792de66f.htm" />
+  <HelpKINode Title="OnDisconnected method" Url="html/3bbf39b5-b395-6d1e-bcd0-ce8e83c3039a.htm" />
+  <HelpKINode Title="Parlor class">
+    <HelpKINode Title="Parlor Class" Url="html/09f8f608-d764-d4bb-5c72-c4f8e3d6eba2.htm" />
+    <HelpKINode Title="constructor" Url="html/f7652294-9579-953a-d9f5-53c353050d0a.htm" />
+    <HelpKINode Title="fields" Url="html/4664c790-7ba1-b13c-3a0a-7d94544e668c.htm" />
+    <HelpKINode Title="methods" Url="html/71982bf2-2ff2-2b7c-3aee-619a56d4f326.htm" />
+    <HelpKINode Title="properties" Url="html/d19f1678-b67b-02ca-a169-5b4977134fbe.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Parlor.AddCashToMyAccount method" Url="html/19e1cc83-d722-d4b7-114a-6161b939530c.htm" />
+  <HelpKINode Title="Parlor.CollectBet method" Url="html/3f2cbd08-5b14-0af3-dfe3-66d72c440631.htm" />
+  <HelpKINode Title="Parlor.Parlor constructor" Url="html/f7652294-9579-953a-d9f5-53c353050d0a.htm" />
+  <HelpKINode Title="Parlor.PlaceBet method" Url="html/3db8eb6c-47f9-b3dd-0bf8-7d88f50ea648.htm" />
+  <HelpKINode Title="Parlor.SendDogsLocationToUsers method" Url="html/a198e1b1-858f-9e90-0c20-f168de961d91.htm" />
+  <HelpKINode Title="Parlor.SendNotificationAboutTheRace method" Url="html/7bb0c7d5-808e-8210-8452-dc7d53aa973d.htm" />
+  <HelpKINode Title="Parlor.UpdateAdminCashLabel method" Url="html/22dd9bb1-17cd-f4b8-515a-4da09744ab1d.htm" />
+  <HelpKINode Title="Parlor.UpdateUserFormOnRaceEnd method" Url="html/13e95506-f096-ed96-1050-4391542b3ab1.htm" />
+  <HelpKINode Title="password field" Url="html/369d9089-1738-80e4-5e7f-5da801b00d2f.htm" />
+  <HelpKINode Title="PayOutTheAmountWon method">
+    <HelpKINode Title="Bet.PayOutTheAmountWon Method " Url="html/79a30eb6-2cc5-3096-f1d9-3fe1d806c6f1.htm" />
+    <HelpKINode Title="BetDummy.PayOutTheAmountWon Method " Url="html/cd1866d8-c61e-991e-d14e-47f986454be2.htm" />
+    <HelpKINode Title="BetHandicap.PayOutTheAmountWon Method " Url="html/dea85cbb-2bcf-6f3d-dff2-aa0903a6040d.htm" />
+    <HelpKINode Title="BetStandard.PayOutTheAmountWon Method " Url="html/c8709c10-0973-8027-4bba-242f862837a3.htm" />
+    <HelpKINode Title="IBetSort.PayOutTheAmountWon Method " Url="html/d486d5c8-cf60-2839-a90a-bcbeb8159c06.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PayOutTheAmountWon_HandicapBetIsPlacedOnDogWichLost_ZeroIsReturned method" Url="html/c9e91a77-9eb2-7eff-fb5c-4fda6e9b20e1.htm" />
+  <HelpKINode Title="PayOutTheAmountWon_HandicapIsPlacedOnDogWichWon_PlacedValueMultupliedByOnePointFive method" Url="html/a6b98058-4c23-c0fb-e512-366bbf99a4a9.htm" />
+  <HelpKINode Title="PayOutTheAmountWon_StandardBetIsPlacedOnDogWichLost_ZeroIsReturned method" Url="html/ac6d620b-e086-e110-8b0d-2a408e848267.htm" />
+  <HelpKINode Title="PayOutTheAmountWon_StandardBetIsPlacedOnDogWichWon_DoubleOfPlacedValueIsReturned method" Url="html/434d54a2-727f-1437-daec-259b7bbaad60.htm" />
+  <HelpKINode Title="PlaceAdminBet method">
+    <HelpKINode Title="ClientServerConnectionsHub.PlaceAdminBet Method " Url="html/6b4c4eae-a261-cc55-44af-21a71794f14d.htm" />
+    <HelpKINode Title="ManageUserData.PlaceAdminBet Method " Url="html/22a600e1-20c0-bb41-2b42-5138cf9101ac.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PlaceBet method">
+    <HelpKINode Title="Bettor.PlaceBet Method " Url="html/f8c648d9-ec79-7721-bcc6-58966024e67c.htm" />
+    <HelpKINode Title="Parlor.PlaceBet Method " Url="html/3db8eb6c-47f9-b3dd-0bf8-7d88f50ea648.htm" />
+    <HelpKINode Title="User.PlaceBet Method " Url="html/535b98a3-b14d-c05a-fb5a-1de732a542d1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PlaceBetOfTheCurrentCaller method" Url="html/0249a318-8e03-c92f-7c19-d57a61af4ebd.htm" />
+  <HelpKINode Title="PlaceClientBet method" Url="html/e33c68c4-552b-4473-d910-73d8fbbff812.htm" />
+  <HelpKINode Title="PlaceClientBet_UserCanNotPlaceCertainBet_BetIsNotPlacedReturnFalse method" Url="html/cd8dad50-e9cb-b839-39df-76c299362656.htm" />
+  <HelpKINode Title="PlaceClientBet_UserIsAbleToPlaceCertainBet_BetIsPlacedReturnTrue method" Url="html/245bf3f6-4c2d-6043-19d0-97e37a21c5a7.htm" />
+  <HelpKINode Title="PlaceMyBetOnServer method" Url="html/56885834-b7f6-de90-942f-d3dfde66213f.htm" />
+  <HelpKINode Title="Players property" Url="html/3ce55063-ba53-38b6-dc73-b4e9d4747a49.htm" />
+  <HelpKINode Title="Program class">
+    <HelpKINode Title="Program Class" Url="html/97cc6f52-bd54-3371-b74e-b2ee525d9176.htm" />
+    <HelpKINode Title="methods" Url="html/6325362c-b254-fc66-0fba-d83ee930c612.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Program.Main method" Url="html/3a55b213-652b-5ae5-cca3-0c4cdcbd6b74.htm" />
+  <HelpKINode Title="raceTrackLength field" Url="html/ae7c7007-4556-fe92-6ece-628ab6b76a7d.htm" />
+  <HelpKINode Title="randomizer field" Url="html/0bcba6f6-814d-ffb0-4fed-6d97dde19061.htm" />
+  <HelpKINode Title="RandomStringGenerator class">
+    <HelpKINode Title="RandomStringGenerator Class" Url="html/38594613-6c39-88f1-79ae-feac9143e5cf.htm" />
+    <HelpKINode Title="constructor" Url="html/f0a3f8bd-fdbf-2197-460e-08cfca544fb3.htm" />
+    <HelpKINode Title="methods" Url="html/23fd6d35-4fac-b2f6-b801-923e982c33f9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RandomStringGenerator.GenerateRandomString method" Url="html/a2ff08f3-301c-190a-adea-4de46d26a5b1.htm" />
+  <HelpKINode Title="RandomStringGenerator.RandomStringGenerator constructor" Url="html/f0a3f8bd-fdbf-2197-460e-08cfca544fb3.htm" />
+  <HelpKINode Title="RefToFormLogin property">
+    <HelpKINode Title="FormClient.RefToFormLogin Property " Url="html/0cb4a90f-eeab-077b-d60f-14a2c41e454e.htm" />
+    <HelpKINode Title="FormServer.RefToFormLogin Property " Url="html/32ec0be0-c599-1366-cce6-0fcca2e7f31e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RefToFormMain property">
+    <HelpKINode Title="FormLogin.RefToFormMain Property " Url="html/05cbe016-0ead-b96d-c19a-a83ef435845e.htm" />
+    <HelpKINode Title="FormRules.RefToFormMain Property " Url="html/5ba31a7e-589c-74eb-be00-5954568c3943.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RegisterNewPlayer method" Url="html/540e08f5-f18d-1074-28e1-8bd35a382631.htm" />
+  <HelpKINode Title="RegisterNewPlayer_ThereIsAUserWithSpecifiedNameInDatabase_RegistrationIsRefused method" Url="html/5bd6ac37-2461-8540-6dcb-b054d63261a7.htm" />
+  <HelpKINode Title="RegisterNewPlayer_ThereIsNoUserWithSpecifiedNameInDatabase_NewAccountIsCreatedInDatabase method" Url="html/1891f0fd-a603-2360-8ba1-4503152dfdba.htm" />
+  <HelpKINode Title="RegistrationFailed enumeration member" Url="html/85bc0018-105d-2f37-a0ab-1ada186a1a74.htm" />
+  <HelpKINode Title="RegistrationSuccessful enumeration member" Url="html/85bc0018-105d-2f37-a0ab-1ada186a1a74.htm" />
+  <HelpKINode Title="RemoveClientFromList method" Url="html/edd540d6-bf29-73cc-0f25-6e4e624c8df7.htm" />
+  <HelpKINode Title="result field" Url="html/5fb41435-3643-aee9-19d7-abe598afa214.htm" />
+  <HelpKINode Title="Run method" Url="html/400871aa-762e-f618-90d9-e762ecc97163.htm" />
+  <HelpKINode Title="RunOnClientForm method" Url="html/62de901f-ccc6-c64f-66ce-0609b07bc2fd.htm" />
+  <HelpKINode Title="Send method" Url="html/3425a58f-41be-e3cc-b368-fb41d5cbe8cc.htm" />
+  <HelpKINode Title="SendAdminCurrentAccountBalanceToDatabase method" Url="html/f0cd0aba-8a97-ad13-4f8a-f787a72de98e.htm" />
+  <HelpKINode Title="SendCashToDatabase method" Url="html/78eee99a-e8c1-f206-ebd1-c468469397a2.htm" />
+  <HelpKINode Title="SendDogsLocationToAllPlayers method" Url="html/3fa5da10-49b8-0631-ce2e-b432d1b62e69.htm" />
+  <HelpKINode Title="SendDogsLocationToUsers method" Url="html/a198e1b1-858f-9e90-0c20-f168de961d91.htm" />
+  <HelpKINode Title="SendMessageToAllPlayers method" Url="html/71ef32a5-0b4d-0804-a8f0-83c9b3ef65ef.htm" />
+  <HelpKINode Title="SendNotificationAboutTheRace method" Url="html/7bb0c7d5-808e-8210-8452-dc7d53aa973d.htm" />
+  <HelpKINode Title="SendNotificationRace method" Url="html/a48201f4-e41c-3d0f-5f28-800aa4706a1f.htm" />
+  <HelpKINode Title="Server class">
+    <HelpKINode Title="Server Class" Url="html/53272eba-900d-dcc9-dcb0-8785dcb56226.htm" />
+    <HelpKINode Title="constructor" Url="html/4a60527f-2a63-8810-8e11-3e785187b13e.htm" />
+    <HelpKINode Title="fields" Url="html/751d25b0-196b-0afe-7f8a-030119443d3e.htm" />
+    <HelpKINode Title="methods" Url="html/3dafbf68-b371-85f9-c72d-43eb9b62e30b.htm" />
+    <HelpKINode Title="properties" Url="html/7325b408-4826-c41f-6c5a-d0cba12a3fa7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="server field" Url="html/baad939c-6484-05bd-78f3-52d51dbfe612.htm" />
+  <HelpKINode Title="Server.adminName field" Url="html/a13e9360-8da6-6976-3e6a-fadf97d97ffd.htm" />
+  <HelpKINode Title="Server.CloseServer method" Url="html/52c49497-9257-8d06-b69f-affdb6101a2b.htm" />
+  <HelpKINode Title="Server.GetAdminName property" Url="html/dde728ee-9d27-c269-af89-d24edfbd7ea8.htm" />
+  <HelpKINode Title="Server.GetServerUrl property" Url="html/39c8602b-39eb-3f18-c495-76dbe44be025.htm" />
+  <HelpKINode Title="Server.Server constructor" Url="html/4a60527f-2a63-8810-8e11-3e785187b13e.htm" />
+  <HelpKINode Title="Server.ServerURI field" Url="html/92235f53-db1e-2d9a-bc18-d00579ab57f5.htm" />
+  <HelpKINode Title="Server.SignalR property" Url="html/595baef7-e725-045e-5867-9633844caabc.htm" />
+  <HelpKINode Title="Server.StartServer method" Url="html/004f3c37-0f63-d0d7-8f39-d00dfb56f61e.htm" />
+  <HelpKINode Title="ServerTests class">
+    <HelpKINode Title="ServerTests Class" Url="html/d2fb4051-9902-8ec2-4d6c-d7bfdca123b2.htm" />
+    <HelpKINode Title="constructor" Url="html/41200694-9377-77b4-1f38-dd145dd2c086.htm" />
+    <HelpKINode Title="methods" Url="html/c504cd72-8960-a440-44dd-d06d988311fd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ServerTests.ServerTests constructor" Url="html/41200694-9377-77b4-1f38-dd145dd2c086.htm" />
+  <HelpKINode Title="ServerTests.StartServer_NoOtherServerOnTheSameUrlIsRunning_ServerIsStarted method" Url="html/8b1ad374-4395-c42b-0432-ef5f87f3c607.htm" />
+  <HelpKINode Title="ServerTests.StartServer_ServerIsAlreadyRunningOnSpecifiedUrl_ServerDoesNotStart method" Url="html/884d237e-5287-da02-4bb3-9807b570a22e.htm" />
+  <HelpKINode Title="ServerURI field">
+    <HelpKINode Title="Client.ServerURI Field" Url="html/4239d8da-5a36-5371-f057-6c59ee6d3395.htm" />
+    <HelpKINode Title="Server.ServerURI Field" Url="html/92235f53-db1e-2d9a-bc18-d00579ab57f5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowResult method" Url="html/3a431780-5a26-aac5-e560-58f52c266fef.htm" />
+  <HelpKINode Title="ShowResultBet method" Url="html/b0ea3837-6620-17e7-e59c-19b1cffb3002.htm" />
+  <HelpKINode Title="ShowResultMessageBet method" Url="html/90243deb-097f-5b95-f851-cb875e1e0186.htm" />
+  <HelpKINode Title="SignalR property" Url="html/595baef7-e725-045e-5867-9633844caabc.htm" />
+  <HelpKINode Title="standartBet enumeration member" Url="html/b5d6bd05-7382-edb6-5186-0b748e871cbe.htm" />
+  <HelpKINode Title="StartGameWindowClient method" Url="html/ae88eac4-8e8a-14d2-2360-c123cb7d8b47.htm" />
+  <HelpKINode Title="StartGameWindowServer method" Url="html/bddb9b43-2023-ea72-0bf7-9b037e03db80.htm" />
+  <HelpKINode Title="StartServer method" Url="html/004f3c37-0f63-d0d7-8f39-d00dfb56f61e.htm" />
+  <HelpKINode Title="StartServer_NoOtherServerOnTheSameUrlIsRunning_ServerIsStarted method" Url="html/8b1ad374-4395-c42b-0432-ef5f87f3c607.htm" />
+  <HelpKINode Title="StartServer_ServerIsAlreadyRunningOnSpecifiedUrl_ServerDoesNotStart method" Url="html/884d237e-5287-da02-4bb3-9807b570a22e.htm" />
+  <HelpKINode Title="Startup class">
+    <HelpKINode Title="Startup Class" Url="html/7aab1d6c-0a3e-00ca-fbd2-881a7122fd7b.htm" />
+    <HelpKINode Title="constructor" Url="html/099a0091-0041-d8f5-380c-66a0aded4f11.htm" />
+    <HelpKINode Title="methods" Url="html/dab58eeb-1ce7-f503-16f0-b3ce2618364c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Startup.Configuration method" Url="html/708f04d4-5cdf-2ec6-8d09-0430745f1b60.htm" />
+  <HelpKINode Title="Startup.Startup constructor" Url="html/099a0091-0041-d8f5-380c-66a0aded4f11.htm" />
+  <HelpKINode Title="TableAdapterManager class">
+    <HelpKINode Title="TableAdapterManager Class" Url="html/0aca3307-7023-addf-681b-8eaec45066de.htm" />
+    <HelpKINode Title="constructor" Url="html/6f5d0058-9162-a67a-377f-26c84a894971.htm" />
+    <HelpKINode Title="methods" Url="html/2ecf1549-312b-1b52-df27-0bc613bccd40.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TableAdapterManager.GetRealUpdatedRows method" Url="html/df7d560f-9a9f-e5b2-3e6f-39a0fc493537.htm" />
+  <HelpKINode Title="TableAdapterManager.TableAdapterManager constructor" Url="html/6f5d0058-9162-a67a-377f-26c84a894971.htm" />
+  <HelpKINode Title="TableAdapterManager.UpdateAll method" Url="html/5b23e322-860b-b40c-e364-f6d9dba96bb6.htm" />
+  <HelpKINode Title="TableAdapterManager.UpdateDeletedRows method" Url="html/b562cd09-f74d-1d14-3339-2bd649a14c8b.htm" />
+  <HelpKINode Title="TableAdapterManager.UpdateInsertedRows method" Url="html/70ac3d64-c810-4bc4-f06c-96eda133e7dd.htm" />
+  <HelpKINode Title="TableAdapterManager.UpdateOrderOption enumeration" Url="html/0c4c20fc-6652-e101-862b-b94e184e26e0.htm" />
+  <HelpKINode Title="TableAdapterManager.UpdateUpdatedRows method" Url="html/0a0aa2d5-b91c-0482-9362-00251377807b.htm" />
+  <HelpKINode Title="TakeStartingPosition method">
+    <HelpKINode Title="Dog.TakeStartingPosition Method " Url="html/578e1ed7-ad3f-8b83-bcfb-975c5a33d292.htm" />
+    <HelpKINode Title="GreyHound.TakeStartingPosition Method " Url="html/af231d6a-96d5-144a-338a-74def7fe991e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TimerRaceTime_Tick method" Url="html/7898c16c-b558-87d3-f32a-886e8ad2656d.htm" />
+  <HelpKINode Title="UpdateAdminCashLabel method" Url="html/22dd9bb1-17cd-f4b8-515a-4da09744ab1d.htm" />
+  <HelpKINode Title="UpdateAll method" Url="html/5b23e322-860b-b40c-e364-f6d9dba96bb6.htm" />
+  <HelpKINode Title="UpdateClientsBetTable method" Url="html/f212881d-e4aa-fb73-4bfc-410cf5f58ee0.htm" />
+  <HelpKINode Title="UpdateCurrentAccountBalanceLabel method">
+    <HelpKINode Title="FormClient.UpdateCurrentAccountBalanceLabel Method " Url="html/286b1d05-aa30-7d91-818c-028ef1cdedc4.htm" />
+    <HelpKINode Title="FormServer.UpdateCurrentAccountBalanceLabel Method " Url="html/e4d48d7d-7449-5f90-3cb1-c20416303949.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UpdateCurrentCallerLabel method" Url="html/ced0b71a-a81b-8018-8eae-3798aadc779d.htm" />
+  <HelpKINode Title="UpdateDataGriedView method">
+    <HelpKINode Title="FormClient.UpdateDataGriedView Method " Url="html/e4e42738-eb75-04e2-fc14-a058bb76c526.htm" />
+    <HelpKINode Title="FormServer.UpdateDataGriedView Method " Url="html/a7d859c0-5279-b83e-392a-822a179ef00f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UpdateDeletedRows method" Url="html/b562cd09-f74d-1d14-3339-2bd649a14c8b.htm" />
+  <HelpKINode Title="UpdateInsertDelete enumeration member" Url="html/0c4c20fc-6652-e101-862b-b94e184e26e0.htm" />
+  <HelpKINode Title="UpdateInsertedRows method" Url="html/70ac3d64-c810-4bc4-f06c-96eda133e7dd.htm" />
+  <HelpKINode Title="UpdateMyLabelOnTheForm method" Url="html/8526fdd1-4008-1412-0855-06367eba2bce.htm" />
+  <HelpKINode Title="UpdateUpdatedRows method" Url="html/0a0aa2d5-b91c-0482-9362-00251377807b.htm" />
+  <HelpKINode Title="UpdateUserFormOnRaceEnd method" Url="html/13e95506-f096-ed96-1050-4391542b3ab1.htm" />
+  <HelpKINode Title="User class">
+    <HelpKINode Title="User Class" Url="html/0c4b18b1-2bc9-1386-23f1-61e093bc9e2d.htm" />
+    <HelpKINode Title="constructor" Url="html/6669face-a441-8043-e4b1-cbb212659da4.htm" />
+    <HelpKINode Title="fields" Url="html/3ca175ec-d796-cbd5-e103-c515d0c6d580.htm" />
+    <HelpKINode Title="methods" Url="html/4c124277-73f8-39fc-210d-cbfe8b8bfe54.htm" />
+    <HelpKINode Title="properties" Url="html/e5d35e5d-88bc-2476-8176-14bbb19cd8eb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User.AddCashToMyAccount method" Url="html/38646588-d3d5-ada8-8a64-b4afc8db276f.htm" />
+  <HelpKINode Title="User.betFactory field" Url="html/e7d770a5-642d-c5a0-093c-1a023b415075.htm" />
+  <HelpKINode Title="User.betSort field" Url="html/6ad1cf57-2777-7506-623b-be12e7a8129d.htm" />
+  <HelpKINode Title="User.cash field" Url="html/86d238e7-bfca-1c1f-f907-81d8d3210045.htm" />
+  <HelpKINode Title="User.Cash property" Url="html/620676bd-777c-c32f-3289-0b3e5357fda1.htm" />
+  <HelpKINode Title="User.ClearBet method" Url="html/55039ff0-9594-07bf-2216-8fe35fa51bfe.htm" />
+  <HelpKINode Title="User.CollectBet method" Url="html/984fe381-0bb9-de1e-4369-c03db0c94ef4.htm" />
+  <HelpKINode Title="User.name field" Url="html/6c6e5625-d3ca-d52f-539d-a75be80d29bb.htm" />
+  <HelpKINode Title="User.Name property" Url="html/601aec6a-2f9f-9703-125f-8b601bb75c5f.htm" />
+  <HelpKINode Title="User.PlaceBet method" Url="html/535b98a3-b14d-c05a-fb5a-1de732a542d1.htm" />
+  <HelpKINode Title="User.User constructor" Url="html/6669face-a441-8043-e4b1-cbb212659da4.htm" />
+  <HelpKINode Title="UserData class">
+    <HelpKINode Title="UserData Class" Url="html/0dcf1a73-90b4-c92f-b4b9-f45c2caf7cab.htm" />
+    <HelpKINode Title="constructor" Url="html/bdae64a6-ea04-6a94-a455-3582b8658f41.htm" />
+    <HelpKINode Title="fields" Url="html/66e783a2-ac6e-24c9-cc20-4be98b85e651.htm" />
+    <HelpKINode Title="methods" Url="html/6938f38d-5615-7ef6-9d61-dcd4fb349f48.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UserData.connectedClients field" Url="html/7700810c-04a5-7f65-9f2e-86fcc88de407.htm" />
+  <HelpKINode Title="UserData.GetCurrentClientAccountBalance method" Url="html/7643cce3-14ed-4e43-170d-a58b78b01b21.htm" />
+  <HelpKINode Title="UserData.GetCurrentClientRow method" Url="html/eefe9b60-985c-fc08-853f-cde0459b0946.htm" />
+  <HelpKINode Title="UserData.UserData constructor" Url="html/bdae64a6-ea04-6a94-a455-3582b8658f41.htm" />
+  <HelpKINode Title="userName field" Url="html/a4e413a6-346f-c197-99e2-986737e621a2.htm" />
+  <HelpKINode Title="username field" Url="html/7a609d25-3571-ebce-bf5e-aa3478dfba7f.htm" />
+  <HelpKINode Title="version">
+    <HelpKINode Title="1.0.0.0" Url="html/b989b19d-f9c0-4818-867b-4cb7e3271878.htm" />
+    <HelpKINode Title="history" Url="html/f16fc4a7-582b-4d5c-9574-458855af1aef.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Welcome" Url="html/afa83212-6476-4822-b729-d2ae5c88dd08.htm" />
+  <HelpKINode Title="WriteToAdminConsole method" Url="html/3212a2c1-39a8-82e3-6d5a-cd162f6f451c.htm" />
+</HelpKI>
