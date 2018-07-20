@@ -31,6 +31,9 @@ namespace BettingParlor_Refactor
 
         /// <summary>
         /// Stores URL on which server is hosted.
+        /// <note type="note">
+        /// The adress provided is used to test the database locally.
+        /// </note>
         /// </summary>
         const string ServerURI = "http://localhost:8080";
 
