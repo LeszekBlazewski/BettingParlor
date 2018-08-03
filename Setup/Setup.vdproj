@@ -165,7 +165,7 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Setup"
+        "ProductName" = "8:BettingParlor"
         "ProductCode" = "8:{E554191C-44D9-40AB-A0F3-412839F18DCC}"
         "PackageCode" = "8:{FBF40D07-61DD-4E53-96ED-BAFB03346176}"
         "UpgradeCode" = "8:{031FCA9B-514B-48BB-AD9A-5AD20564EE57}"
@@ -178,7 +178,7 @@
         "Manufacturer" = "8:Leszek Błażewski"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Setup"
+        "Title" = "8:Install_BettingParlor"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Leszek Błażewski"
         "Keywords" = "8:"
