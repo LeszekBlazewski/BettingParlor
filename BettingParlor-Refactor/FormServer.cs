@@ -55,7 +55,7 @@ namespace BettingParlor_Refactor
         /// <summary>
         /// Used to shut down server properly when administrator signs out.
         /// </summary>
-        Server server;        
+        Server server;         
 
         #region DogPictureBoxs initialization
         /// <summary>
@@ -81,7 +81,7 @@ namespace BettingParlor_Refactor
         /// For more inforamtion check LINGQ documentation.</remarks>
         public void UpdateDataGriedView()
         {
-            currentBetsTableAdapter.Fill(bettingParlorDataSet.CurrentBets);
+            currentBetsTableAdapter1.Fill(bettingParlorLocalDataSet.CurrentBets);
         }
 
 
@@ -265,6 +265,8 @@ namespace BettingParlor_Refactor
         /// <param name="e"></param>
         private void FormServer_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'bettingParlorLocalDataSet.CurrentBets' table. You can move, or remove it, as needed.
+            this.currentBetsTableAdapter1.Fill(this.bettingParlorLocalDataSet.CurrentBets);
             administrator.PlaceBet(BetFactory.BetSort.dummyBet, 0, 0);          //Admin signs in only ONCE because he runs the server, place dummy bet to prevent null exception when collecting bets.
             UpdateCurrentAccountBalanceLabel();                                 //used to display current account balance in label for administrator.
             UpdateDataGriedView();                                              //In case some bets are stored in dataBase display them to admin to allow him to clear them before other clients connect.

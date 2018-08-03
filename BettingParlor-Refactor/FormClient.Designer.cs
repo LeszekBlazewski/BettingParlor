@@ -48,7 +48,6 @@
             this.amountBetDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dogToWinDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.currentBetsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.bettingParlorDataSet = new BettingParlor_Refactor.BettingParlorDataSet();
             this.buttonSignOut = new System.Windows.Forms.Button();
             this.buttonPlaceBet = new System.Windows.Forms.Button();
             this.labelCurrentBets = new System.Windows.Forms.Label();
@@ -59,18 +58,19 @@
             this.pictureBoxDog2 = new System.Windows.Forms.PictureBox();
             this.pictureBoxDog1 = new System.Windows.Forms.PictureBox();
             this.pictureBoxRaceTrack = new System.Windows.Forms.PictureBox();
-            this.currentBetsTableAdapter = new BettingParlor_Refactor.BettingParlorDataSetTableAdapters.CurrentBetsTableAdapter();
+            this.bettingParlorLocalDataSet = new BettingParlor_Refactor.BettingParlorLocalDataSet();
+            this.currentBetsTableAdapter1 = new BettingParlor_Refactor.BettingParlorLocalDataSetTableAdapters.CurrentBetsTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownDogToWin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownHandiCapValue)).BeginInit();
             this.panelHandicap.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCurrentBetts)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.currentBetsBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bettingParlorDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDog4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDog3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDog2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDog1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRaceTrack)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bettingParlorLocalDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // labelChat
@@ -284,12 +284,7 @@
             // currentBetsBindingSource
             // 
             this.currentBetsBindingSource.DataMember = "CurrentBets";
-            this.currentBetsBindingSource.DataSource = this.bettingParlorDataSet;
-            // 
-            // bettingParlorDataSet
-            // 
-            this.bettingParlorDataSet.DataSetName = "BettingParlorDataSet";
-            this.bettingParlorDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.currentBetsBindingSource.DataSource = this.bettingParlorLocalDataSet;
             // 
             // buttonSignOut
             // 
@@ -390,9 +385,14 @@
             this.pictureBoxRaceTrack.TabIndex = 23;
             this.pictureBoxRaceTrack.TabStop = false;
             // 
-            // currentBetsTableAdapter
+            // bettingParlorLocalDataSet
             // 
-            this.currentBetsTableAdapter.ClearBeforeFill = true;
+            this.bettingParlorLocalDataSet.DataSetName = "BettingParlorLocalDataSet";
+            this.bettingParlorLocalDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // currentBetsTableAdapter1
+            // 
+            this.currentBetsTableAdapter1.ClearBeforeFill = true;
             // 
             // FormClient
             // 
@@ -429,12 +429,12 @@
             this.panelHandicap.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCurrentBetts)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.currentBetsBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bettingParlorDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDog4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDog3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDog2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDog1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRaceTrack)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bettingParlorLocalDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -465,13 +465,13 @@
         private System.Windows.Forms.Label labelCurrentBets;
         private System.Windows.Forms.Label labelPlayerCurrentAccountBalance;
         private System.Windows.Forms.Button buttonAddCash;
-        private BettingParlorDataSet bettingParlorDataSet;
         private System.Windows.Forms.BindingSource currentBetsBindingSource;
-        private BettingParlorDataSetTableAdapters.CurrentBetsTableAdapter currentBetsTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn numberDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn bettorNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn amountBetDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dogToWinDataGridViewTextBoxColumn;
         private System.Windows.Forms.Button buttonPlaceBet;
+        private BettingParlorLocalDataSet bettingParlorLocalDataSet;
+        private BettingParlorLocalDataSetTableAdapters.CurrentBetsTableAdapter currentBetsTableAdapter1;
     }
 }

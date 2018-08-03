@@ -169,7 +169,7 @@ namespace BettingParlor_Refactor
         /// For more inforamtion check LINGQ TO SQL documentation.</remarks>
         public void UpdateDataGriedView()
         {
-            currentBetsTableAdapter.Fill(bettingParlorDataSet.CurrentBets);
+            currentBetsTableAdapter1.Fill(bettingParlorLocalDataSet.CurrentBets);
         }
 
         /// <summary>
@@ -261,6 +261,8 @@ namespace BettingParlor_Refactor
         /// <param name="e"></param>
         private void FormClient_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'bettingParlorLocalDataSet.CurrentBets' table. You can move, or remove it, as needed.
+            this.currentBetsTableAdapter1.Fill(this.bettingParlorLocalDataSet.CurrentBets);
             currentClient.UpdateMyLabelOnTheForm();
             UpdateDataGriedView();
         }

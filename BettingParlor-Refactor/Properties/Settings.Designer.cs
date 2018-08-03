@@ -37,23 +37,11 @@ namespace BettingParlor_Refactor.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=den1.mssql3.gear.host;Initial Catalog=bettingparlorvps;User ID=bettin" +
-            "gparlorvps;Password=Wc08lmh-94!M;Connect Timeout=30;Encrypt=False;TrustServerCer" +
-            "tificate=False")]
-        public string bettingparlorvpsConnectionString {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\BettingParlor" +
+            "Local.mdf;Integrated Security=True;Connect Timeout=30")]
+        public string BettingParlorLocalConnectionString {
             get {
-                return ((string)(this["bettingparlorvpsConnectionString"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=den1.mssql3.gear.host;Initial Catalog=bettingparlorvps;User ID=bettin" +
-            "gparlorvps;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False")]
-        public string bettingparlorvpsConnectionString1 {
-            get {
-                return ((string)(this["bettingparlorvpsConnectionString1"]));
+                return ((string)(this["BettingParlorLocalConnectionString"]));
             }
         }
     }

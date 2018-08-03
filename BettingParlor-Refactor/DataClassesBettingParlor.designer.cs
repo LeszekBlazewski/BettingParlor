@@ -22,7 +22,7 @@ namespace BettingParlor_Refactor
 	using System;
 	
 	
-	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="BettingParlor")]
+	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="BettingParlorLocal")]
 	public partial class DataClassesBettingParlorDataContext : System.Data.Linq.DataContext
 	{
 		
@@ -30,16 +30,16 @@ namespace BettingParlor_Refactor
 		
     #region Extensibility Method Definitions
     partial void OnCreated();
-    partial void InsertPlayer(Player instance);
-    partial void UpdatePlayer(Player instance);
-    partial void DeletePlayer(Player instance);
     partial void InsertCurrentBet(CurrentBet instance);
     partial void UpdateCurrentBet(CurrentBet instance);
     partial void DeleteCurrentBet(CurrentBet instance);
+    partial void InsertPlayer(Player instance);
+    partial void UpdatePlayer(Player instance);
+    partial void DeletePlayer(Player instance);
     #endregion
 		
 		public DataClassesBettingParlorDataContext() : 
-				base(global::BettingParlor_Refactor.Properties.Settings.Default.BettingParlorConnectionString, mappingSource)
+				base(global::BettingParlor_Refactor.Properties.Settings.Default.BettingParlorLocalConnectionString, mappingSource)
 		{
 			OnCreated();
 		}
@@ -68,6 +68,14 @@ namespace BettingParlor_Refactor
 			OnCreated();
 		}
 		
+		public System.Data.Linq.Table<CurrentBet> CurrentBets
+		{
+			get
+			{
+				return this.GetTable<CurrentBet>();
+			}
+		}
+		
 		public System.Data.Linq.Table<Player> Players
 		{
 			get
@@ -75,12 +83,138 @@ namespace BettingParlor_Refactor
 				return this.GetTable<Player>();
 			}
 		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.CurrentBets")]
+	public partial class CurrentBet : INotifyPropertyChanging, INotifyPropertyChanged
+	{
 		
-		public System.Data.Linq.Table<CurrentBet> CurrentBets
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _Number;
+		
+		private string _Bettor_name;
+		
+		private decimal _Amount_bet;
+		
+		private int _Dog_to_win;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnNumberChanging(int value);
+    partial void OnNumberChanged();
+    partial void OnBettor_nameChanging(string value);
+    partial void OnBettor_nameChanged();
+    partial void OnAmount_betChanging(decimal value);
+    partial void OnAmount_betChanged();
+    partial void OnDog_to_winChanging(int value);
+    partial void OnDog_to_winChanged();
+    #endregion
+		
+		public CurrentBet()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Number", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int Number
 		{
 			get
 			{
-				return this.GetTable<CurrentBet>();
+				return this._Number;
+			}
+			set
+			{
+				if ((this._Number != value))
+				{
+					this.OnNumberChanging(value);
+					this.SendPropertyChanging();
+					this._Number = value;
+					this.SendPropertyChanged("Number");
+					this.OnNumberChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="[Bettor name]", Storage="_Bettor_name", DbType="NVarChar(15) NOT NULL", CanBeNull=false)]
+		public string Bettor_name
+		{
+			get
+			{
+				return this._Bettor_name;
+			}
+			set
+			{
+				if ((this._Bettor_name != value))
+				{
+					this.OnBettor_nameChanging(value);
+					this.SendPropertyChanging();
+					this._Bettor_name = value;
+					this.SendPropertyChanged("Bettor_name");
+					this.OnBettor_nameChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="[Amount bet]", Storage="_Amount_bet", DbType="Money NOT NULL")]
+		public decimal Amount_bet
+		{
+			get
+			{
+				return this._Amount_bet;
+			}
+			set
+			{
+				if ((this._Amount_bet != value))
+				{
+					this.OnAmount_betChanging(value);
+					this.SendPropertyChanging();
+					this._Amount_bet = value;
+					this.SendPropertyChanged("Amount_bet");
+					this.OnAmount_betChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="[Dog to win]", Storage="_Dog_to_win", DbType="Int NOT NULL")]
+		public int Dog_to_win
+		{
+			get
+			{
+				return this._Dog_to_win;
+			}
+			set
+			{
+				if ((this._Dog_to_win != value))
+				{
+					this.OnDog_to_winChanging(value);
+					this.SendPropertyChanging();
+					this._Dog_to_win = value;
+					this.SendPropertyChanged("Dog_to_win");
+					this.OnDog_to_winChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
 		}
 	}
@@ -218,140 +352,6 @@ namespace BettingParlor_Refactor
 					this._UserTypeID = value;
 					this.SendPropertyChanged("UserTypeID");
 					this.OnUserTypeIDChanged();
-				}
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.CurrentBets")]
-	public partial class CurrentBet : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private int _Number;
-		
-		private string _Bettor_name;
-		
-		private decimal _Amount_bet;
-		
-		private int _Dog_to_win;
-		
-    #region Extensibility Method Definitions
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void OnNumberChanging(int value);
-    partial void OnNumberChanged();
-    partial void OnBettor_nameChanging(string value);
-    partial void OnBettor_nameChanged();
-    partial void OnAmount_betChanging(decimal value);
-    partial void OnAmount_betChanged();
-    partial void OnDog_to_winChanging(int value);
-    partial void OnDog_to_winChanged();
-    #endregion
-		
-		public CurrentBet()
-		{
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Number", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
-		public int Number
-		{
-			get
-			{
-				return this._Number;
-			}
-			set
-			{
-				if ((this._Number != value))
-				{
-					this.OnNumberChanging(value);
-					this.SendPropertyChanging();
-					this._Number = value;
-					this.SendPropertyChanged("Number");
-					this.OnNumberChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="[Bettor name]", Storage="_Bettor_name", DbType="NVarChar(15) NOT NULL", CanBeNull=false)]
-		public string Bettor_name
-		{
-			get
-			{
-				return this._Bettor_name;
-			}
-			set
-			{
-				if ((this._Bettor_name != value))
-				{
-					this.OnBettor_nameChanging(value);
-					this.SendPropertyChanging();
-					this._Bettor_name = value;
-					this.SendPropertyChanged("Bettor_name");
-					this.OnBettor_nameChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="[Amount bet]", Storage="_Amount_bet", DbType="Money NOT NULL")]
-		public decimal Amount_bet
-		{
-			get
-			{
-				return this._Amount_bet;
-			}
-			set
-			{
-				if ((this._Amount_bet != value))
-				{
-					this.OnAmount_betChanging(value);
-					this.SendPropertyChanging();
-					this._Amount_bet = value;
-					this.SendPropertyChanged("Amount_bet");
-					this.OnAmount_betChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="[Dog to win]", Storage="_Dog_to_win", DbType="Int NOT NULL")]
-		public int Dog_to_win
-		{
-			get
-			{
-				return this._Dog_to_win;
-			}
-			set
-			{
-				if ((this._Dog_to_win != value))
-				{
-					this.OnDog_to_winChanging(value);
-					this.SendPropertyChanging();
-					this._Dog_to_win = value;
-					this.SendPropertyChanged("Dog_to_win");
-					this.OnDog_to_winChanged();
 				}
 			}
 		}

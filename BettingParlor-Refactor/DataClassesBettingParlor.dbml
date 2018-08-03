@@ -1,5 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BettingParlor" Class="DataClassesBettingParlorDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-2LKNJ5Q;Initial Catalog=BettingParlor;Integrated Security=True" SettingsObjectName="BettingParlor_Refactor.Properties.Settings" SettingsPropertyName="BettingParlorConnectionString" Provider="System.Data.SqlClient" />
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BettingParlorLocal" Class="DataClassesBettingParlorDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\BettingParlorLocal.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="BettingParlor_Refactor.Properties.Settings" SettingsPropertyName="BettingParlorLocalConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CurrentBets" Member="CurrentBets">
+    <Type Name="CurrentBet">
+      <Column Name="Number" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[Bettor name]" Member="Bettor_name" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="[Amount bet]" Member="Amount_bet" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="[Dog to win]" Member="Dog_to_win" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
   <Table Name="dbo.Players" Member="Players">
     <Type Name="Player">
       <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -7,14 +15,6 @@
       <Column Name="Password" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
       <Column Name="CurrentAccountBalance" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
       <Column Name="UserTypeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
-    </Type>
-  </Table>
-  <Table Name="dbo.CurrentBets" Member="CurrentBets">
-    <Type Name="CurrentBet">
-      <Column Name="Number" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="[Bettor name]" Member="Bettor_name" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
-      <Column Name="[Amount bet]" Member="Amount_bet" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
-      <Column Name="[Dog to win]" Member="Dog_to_win" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
     </Type>
   </Table>
 </Database>

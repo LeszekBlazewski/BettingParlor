@@ -22,7 +22,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>1</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -114,13 +114,10 @@
     <Compile Include="BetFactory.cs" />
     <Compile Include="BetHandicap.cs" />
     <Compile Include="BetStandard.cs" />
-    <Compile Include="BettingParlorDataSet.cs">
-      <DependentUpon>BettingParlorDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="BettingParlorDataSet.Designer.cs">
+    <Compile Include="BettingParlorLocalDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>BettingParlorDataSet.xsd</DependentUpon>
+      <DependentUpon>BettingParlorLocalDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Bettor.cs" />
     <Compile Include="Client.cs" />
@@ -219,17 +216,16 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="BettingParlor-Refactor_TemporaryKey.pfx" />
-    <None Include="BettingParlorDataSet.xsc">
-      <DependentUpon>BettingParlorDataSet.xsd</DependentUpon>
+    <None Include="BettingParlorLocalDataSet.xsc">
+      <DependentUpon>BettingParlorLocalDataSet.xsd</DependentUpon>
     </None>
-    <None Include="BettingParlorDataSet.xsd">
+    <None Include="BettingParlorLocalDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>BettingParlorDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>BettingParlorLocalDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="BettingParlorDataSet.xss">
-      <DependentUpon>BettingParlorDataSet.xsd</DependentUpon>
+    <None Include="BettingParlorLocalDataSet.xss">
+      <DependentUpon>BettingParlorLocalDataSet.xsd</DependentUpon>
     </None>
     <None Include="DataClassesBettingParlor.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
@@ -276,6 +272,20 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SqlServer.SqlLocalDB.11.1">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2012 Express LocalDB</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BettingParlorLocal.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BettingParlorLocal_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>BettingParlorLocal.mdf</DependentUpon>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
