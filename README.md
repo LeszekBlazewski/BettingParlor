@@ -1,4 +1,4 @@
-# BettingParlor ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
+# BettingParlor
 
 Client-Server desktop betting application written in C#.
 
